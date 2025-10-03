@@ -27,7 +27,7 @@ const ServiceItem = ({ data, type }) => {
                     <Link className="main md:p-10 p-8 flex flex-col items-center h-full"
                         href={process.env.PUBLIC_URL + "/[slug]"}
                         as={
-                            process.env.PUBLIC_URL + "/" + convertToSlug(data.title) + "?id=" + data.id
+                            process.env.PUBLIC_URL + "/" + convertToSlug(data.title)
                         }
                     >
                         <i className={`${data.icon} text-6xl text-blue`}></i>
@@ -43,7 +43,7 @@ const ServiceItem = ({ data, type }) => {
                     <Link className="main md:p-10 p-8 flex items-start gap-6 h-full"
                         href={process.env.PUBLIC_URL + "/[slug]"}
                         as={
-                            process.env.PUBLIC_URL + "/" + convertToSlug(data.title) + "?id=" + data.id
+                            process.env.PUBLIC_URL + "/" + convertToSlug(data.title) 
                         }
                     >
                         <i className={`${data.icon} text-6xl text-blue flex-shrink-0`}></i>
@@ -59,7 +59,7 @@ const ServiceItem = ({ data, type }) => {
                     <Link className="main"
                         href={process.env.PUBLIC_URL + "/[slug]"}
                         as={
-                            process.env.PUBLIC_URL + "/" + convertToSlug(data.title) + "?id=" + data.id
+                            process.env.PUBLIC_URL + "/" + convertToSlug(data.title)
                         }
                     >
                         <i className={`${data.icon} text-6xl flex-shrink-0`}></i>
@@ -75,7 +75,7 @@ const ServiceItem = ({ data, type }) => {
                     <Link className="main md:p-[60px] p-10 flex max-sm:flex-col items-start gap-6 h-full"
                         href={process.env.PUBLIC_URL + "/[slug]"}
                         as={
-                            process.env.PUBLIC_URL + "/" + convertToSlug(data.title) + "?id=" + data.id
+                            process.env.PUBLIC_URL + "/" + convertToSlug(data.title) 
                         }
                     >
                         <i className={`${data.icon} text-6xl text-pink flex-shrink-0`}></i>
@@ -91,7 +91,7 @@ const ServiceItem = ({ data, type }) => {
                     <Link className="main p-10 max-sm:py-6 max-sm:px-8 block relative h-full bg-white border-r border-outline"
                         href={process.env.PUBLIC_URL + "/[slug]"}
                         as={
-                            process.env.PUBLIC_URL + "/" + convertToSlug(data.title) + "?id=" + data.id
+                            process.env.PUBLIC_URL + "/" + convertToSlug(data.title) 
                         }
                     >
                         <div className="slash flex items-center absolute -top-4 right-6 opacity-0 duration-500">
@@ -110,7 +110,7 @@ const ServiceItem = ({ data, type }) => {
                 <div className="service-item style-six">
                     <Link className="main p-8 block relative h-full bg-white rounded-[20px] shadow-lg"
                         href={process.env.PUBLIC_URL + "/[slug]"}
-                        as={process.env.PUBLIC_URL + "/" + convertToSlug(data.title) + "?id=" + data.id}
+                        as={process.env.PUBLIC_URL + "/" + convertToSlug(data.title)}
                     >
                         <i className={`${data.icon} text-purple text-6xl flex-shrink-0`}></i>
                         <div className="mt-6">
@@ -125,7 +125,7 @@ const ServiceItem = ({ data, type }) => {
                     <Link className="main xl:p-10 p-8 flex flex-col items-center h-full"
                         href={process.env.PUBLIC_URL + "/[slug]"}
                         as={
-                            process.env.PUBLIC_URL + "/" + convertToSlug(data.title) + "?id=" + data.id
+                            process.env.PUBLIC_URL + "/" + convertToSlug(data.title) 
                         }
                     >
                         <i className={`${data.icon} text-6xl`}></i>

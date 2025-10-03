@@ -9,7 +9,7 @@ const OutstandingBlog = ({ data }) => {
             <div className="container">
                 <Link className="content-main style-one block bg-white rounded-3xl overflow-hidden shadow-lg"
                     href={process.env.PUBLIC_URL + "/blog/post/[slug]"}
-                    as={process.env.PUBLIC_URL + "/blog/post/" + convertToSlug(data.title) + "?id=" + data.id}
+                    as={process.env.PUBLIC_URL + "/blog/post/" + convertToSlug(data.title)}
                 >
                     <div className="flex max-lg:flex-col items-center justify-end relative">
                         <div className="lg:w-1/2 h-full lg:absolute top-0 left-0">
