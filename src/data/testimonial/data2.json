@@ -1,0 +1,24 @@
+
+[
+  {
+    "id": 1,
+    "image": "/images/avatar/540x370.png",
+    "name": "Global Manufacturing Firm",
+    "company": "CIO",
+    "date": "2 days ago",
+    "review": "AbnoQ helped us modernize our IT backbone with a hybrid infrastructure that reduced downtime by 40% and improved scalability across regions.",
+    "listReply": [
+      {
+        "replyId": 5,
+        "rate": 4
+      },
+      {
+        "replyId": 3,
+        "rate": 5
+      }
+    ],
+    "rate": 5
+  }
+  
+
+]

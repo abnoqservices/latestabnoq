@@ -1,0 +1,216 @@
+[
+  {
+    "id": 1,
+    "image": "/images/avatar/540x370.png",
+    "name": "Alexander Ball",
+    "company": "CEO Digital Avitex",
+    "date": "2 days ago",
+    "review": "Abnoq exceeded our expectations with their cloud computing solutions. Highly recommended!",
+    "listReply": [
+      {
+        "replyId": 5,
+        "rate": 4
+      },
+      {
+        "replyId": 3,
+        "rate": 5
+      }
+    ],
+    "rate": 5
+  },
+  {
+    "id": 2,
+    "image": "/images/avatar/540x370.png",
+    "name": "Izabel Watt",
+    "company": "UI UX Design TechX",
+    "date": "2 days ago",
+    "review": "As our CTO, Sarah is the visionary leader responsible for shaping our technology strategy.",
+    "listReply": [],
+    "rate": 5
+  },
+  {
+    "id": 3,
+    "image": "/images/avatar/540x370.png",
+    "name": "Tony Adams",
+    "company": "Service Dev HiveLab",
+    "date": "2 days ago",
+    "review": "At the forefront of our software development projects is Michael. His coding prowess and problem.",
+    "listReply": [
+      {
+        "replyId": 8,
+        "rate": 5
+      }
+    ],
+    "rate": 4
+  },
+  {
+    "id": 4,
+    "image": "/images/avatar/540x370.png",
+    "name": "Malika Kenny",
+    "company": "UI Dev TechOne",
+    "date": "2 days ago",
+    "review": "David is the friendly face behind our exceptional customer service. With a warm and approachable.",
+    "listReply": [
+      {
+        "replyId": 6,
+        "rate": 5
+      }
+    ],
+    "rate": 5
+  },
+  {
+    "id": 5,
+    "image": "/images/component/testimonial5-1.png",
+    "name": "Izabel Watt",
+    "company": "UI UX Design TechX",
+    "date": "2 days ago",
+    "review": "As our lead designer, she combines aesthetics with functionality to craft visually captivating solutions.",
+    "listReply": [
+      {
+        "replyId": 2,
+        "rate": 5
+      },
+      {
+        "replyId": 9,
+        "rate": 5
+      }
+    ],
+    "rate": 5
+  },
+  {
+    "id": 6,
+    "image": "/images/component/testimonial5-2.png",
+    "name": "Tony Adams",
+    "company": "Service Dev HiveLab",
+    "date": "2 days ago",
+    "review": "Their mastery of market analysis and tailored solutions drove our growth and competive advantage.",
+    "listReply": [],
+    "rate": 4
+  },
+  {
+    "id": 7,
+    "image": "/images/component/testimonial5-3.png",
+    "name": "Malika Kenny",
+    "company": "UI Dev TechOne",
+    "date": "2 days ago",
+    "review": "These consultants are true partners in success. Their thorough understanding of our industry coupled.",
+    "listReply": [
+      {
+        "replyId": 4,
+        "rate": 5
+      },
+      {
+        "replyId": 1,
+        "rate": 5
+      }
+    ],
+    "rate": 5
+  },
+  {
+    "id": 8,
+    "image": "/images/avatar/Adobe-logo1.png",
+    "name": "Adobe",
+    "company": "Localization Lead, Adobe",
+    "date": "2 days ago",
+    "review": "AbnoQ’s localization expertise helped us adapt Adobe campaigns for diverse markets without losing brand voice. Engagement across regional audiences increased significantly.",
+    "listReply": [
+      {
+        "replyId": 2,
+        "rate": 5
+      },
+      {
+        "replyId": 10,
+        "rate": 5
+      }
+    ],
+    "rate": 5
+  },
+  {
+    "id": 9,
+    "image": "/images/avatar/Ubisoft-logo1.png",
+    "name": "Ubisoft",
+    "company": "Global Publishing Manager, Ubisoft",
+    "date": "2 days ago",
+    "review": "With AbnoQ, we launched localized content for multiple markets on time. Their AI-powered translation and cultural adaptation boosted player satisfaction worldwide.",
+    "listReply": [
+      {
+        "replyId": 5,
+        "rate": 5
+      },
+      {
+        "replyId": 3,
+        "rate": 5
+      }
+    ],
+    "rate": 5
+  },
+  {
+    "id": 10,
+    "image": "/images/avatar/Ashok Masale-logo.png",
+    "name": "Ashok Masale",
+    "company": "Director, Ashok Masale",
+    "date": "2 days ago",
+    "review": "AbnoQ designed our new e-commerce platform and ran targeted digital campaigns. Within 6 months, our online sales doubled, and brand recall grew rapidly.",
+    "listReply": [],
+    "rate": 5
+  },
+  {
+    "id": 11,
+    "image": "/images/avatar/Superhouse Group-logo.png",
+    "name": "Superhouse Group",
+    "company": "Head of Marketing, Superhouse Group",
+    "date": "2 days ago",
+    "review": "From building a modern website to executing performance marketing, AbnoQ transformed our digital presence. Their team combines creativity with measurable ROI.",
+    "listReply": [
+      {
+        "replyId": 4,
+        "rate": 5
+      },
+      {
+        "replyId": 7,
+        "rate": 5
+      }
+    ],
+    "rate": 5
+  },
+  {
+    "id": 12,
+    "image": "/images/avatar/Navarang Masale-logo.png",
+    "name": "Navarang Masale",
+    "company": "Marketing Director, Navarang Masale",
+    "date": "2 days ago",
+    "review": "AbnoQ’s digital marketing campaigns gave our traditional brand a fresh identity. With targeted ads and SEO, we saw a 3x increase in online inquiries within just 4 months.",
+    "listReply": [],
+    "rate": 5
+  },
+  {
+    "id": 13,
+    "image": "/images/avatar/Swastik Sattu-logo.png",
+    "name": " Swastik Sattu",
+    "company": "Founder, Swastik Sattu",
+    "date": "2 days ago",
+    "review": "From packaging design to social media promotions, AbnoQ helped us scale Swastik Sattu to new audiences. Their creative campaigns made our local product a household name.",
+    "listReply": [],
+    "rate": 5
+  },
+  {
+    "id": 14,
+    "image": "/images/avatar/Allencooper-logo1.png",
+    "name": " Allencooper",
+    "company": "E-Commerce Manager, Allencooper",
+    "date": "2 days ago",
+    "review": "AbnoQ completely revamped our e-commerce website with modern UI/UX and integrated payment gateways. Sales improved by 45% within the first quarter.",
+    "listReply": [],
+    "rate": 5
+  },
+  {
+    "id": 15,
+    "image": "/images/avatar/Jackfang-logo1.png",
+    "name": " Jackfang",
+    "company": "Founder, Jackfang",
+    "date": "2 days ago",
+    "review": "AbnoQ built our new website and took charge of our social media promotions. The content strategy, regular posting, and ad management gave us a strong digital presence and boosted customer engagement by 70% in just 3 months.",
+    "listReply": [],
+    "rate": 5
+  }
+]

@@ -1,0 +1,261 @@
+[
+    {
+        "id": "1",
+        "icon": "icon-phone-sync",
+        "title": "Enterprise IT Infrastructure",
+        "desc": "Tagline (H2): Reliable enterprise-grade IT foundations with scalable networks, secure systems, and future-ready infrastructure."
+    },
+    {
+        "id": "2",
+        "icon": "icon-user-sync",
+        "title": "Technology Consulting Advisory",
+        "desc": "Hear from our experts on how AbnoQ empowers enterprises with IT strategies that align technology with long-term business goals."
+    },
+    {
+        "id": "3",
+        "icon": "icon-device-cloud",
+        "title": "Cloud Computing Solutions",
+        "desc": "Build scalable, secure, and cost-optimized cloud infrastructure with expert guidance and transformative strategies."
+    },
+    {
+        "id": "4",
+        "icon": "icon-cloud-dots",
+        "title": "Growth Marketing",
+        "desc": "Integrated campaigns that attract, engage, and convert your audience into loyal customers."
+    },
+    {
+        "id": "5",
+        "icon": "icon-phone-cloud",
+        "title": "AI & Automation",
+        "desc": "Smart workflows, predictive intelligence, and automation tools to streamline operations and scale growth."
+    },
+    {
+        "id": "6",
+        "icon": "icon-device-sync",
+        "title": "Migration & Integration",
+        "desc": "Seamless migration of data, systems, and platforms with integration services to boost efficiency."
+    },
+    {
+        "id": "7",
+        "icon": "Bank",
+        "title": "Finance & Banking",
+        "desc": "Outsourcing IT management and maintenance, including network monitoring, data backup, cybersecurity, help desk support."
+    },
+    {
+        "id": "8",
+        "icon": "Rocket",
+        "title": "Information Technology & Telecommunications",
+        "desc": "Strategic guidance on IT strategy, digital transformation, software implementation, and project management."
+    },
+    {
+        "id": "9",
+        "icon": "FirstAidKit",
+        "title": "Healthcare & Pharmaceuticals",
+        "desc": "Access to remote servers and infrastructure for data storage, application hosting, and scalable resources."
+    },
+    {
+        "id": "10",
+        "icon": "AirplaneTakeoff",
+        "title": "Transportation & Logistics",
+        "desc": "Protecting businesses from cyber threats through measures like network security, encryption, and training."
+    },
+    {
+        "id": "11",
+        "icon": "Warehouse",
+        "title": "Real Estate",
+        "desc": "Services for data storage, backup, integration, governance, and analytics to drive insights and informed decisions."
+    },
+    {
+        "id": "12",
+        "icon": "Wrench",
+        "title": "Manufacturing & Industry 4.0",
+        "desc": " Custom software development and integration services to meet specific business needs."
+    },
+    {
+        "id": "13",
+        "icon": "Basket",
+        "title": "Education & Training",
+        "desc": "Access to remote servers and infrastructure for data storage, application hosting, and scalable resources."
+    },
+    {
+        "id": "14",
+        "icon": "LightbulbFilament",
+        "title": "Energy & Environment",
+        "desc": "Protecting businesses from cyber threats through measures like network security, encryption, and training."
+    },
+    {
+        "id": "15",
+        "icon": "GraduationCap",
+        "title": "E-commerce & Retail",
+        "desc": "Services for data storage, backup, integration, governance, and analytics to drive insights and informed decisions."
+    },
+    {
+        "id": "16",
+        "icon": "YoutubeLogo",
+        "title": "Entertainment and Media",
+        "desc": "Custom software development and integration services to meet specific business needs."
+    },
+    
+    {
+        "id": "18",
+        "icon": "icon-user-time",
+        "title": "Project Management",
+        "desc": "Ensuring successful project execution by expertly managing timelines, resources, and deliverables."
+    },
+    {
+        "id": "19",
+        "icon": "icon-hand-up",
+        "title": "Operational Optimization",
+        "desc": "Enhancing performance by streamlining processes, boosting efficiency, and reducing expenditures."
+    },
+    {
+        "id": "20",
+        "icon": "icon-device-cloud",
+        "title": "Digital Consulting",
+        "desc": "Navigating the digital landscape, from system enhancements to transformative tech solutions."
+    },
+    {
+        "id": "21",
+        "icon": "icon-target-chart",
+        "title": "Marketing Strategy",
+        "desc": "Developing impactful marketing blueprints, leveraging market insights for effective campaigns."
+    },
+    {
+        "id": "22",
+        "icon": "icon-user-chart",
+        "title": "Leadership Development",
+        "desc": "Cultivating top-tier leadership skills for managerial excellence and elevated performance."
+    },
+    {
+        "id": "23",
+        "icon": "icon-coin-user",
+        "title": "Business Strategy",
+        "desc": "Develop long-term plans and make informed decisions to drive corporate growth and competitiveness."
+    },
+    {
+        "id": "24",
+        "icon": "icon-hand-up",
+        "title": "Financial Advisory",
+        "desc": "Maximize your finances with expert Financial Advisory. Smart strategies for saving, investing, debt, retirement, and asset protection."
+    },
+    {
+        "id": "25",
+        "icon": "icon-user-sync",
+        "title": "HR Consulting",
+        "desc": "Optimize talent acquisition, employee development, performance management, and organizational design."
+    },
+    {
+        "id": "26",
+        "icon": "icon-device-cloud",
+        "title": "IT Solutions",
+        "desc": "Leverage technology for efficient business processes, enhanced cybersecurity, digital transformation innovation."
+    },
+    {
+        "id": "27",
+        "icon": "icon-chart",
+        "title": "Search Engine Optimization",
+        "desc": "Enhancing your website's visibility on search engines to attract organic traffic and improve search rankings."
+    },
+    {
+        "id": "28",
+        "icon": "icon-sms",
+        "title": "Social Media Marketing",
+        "desc": "Creating and managing engaging social media campaigns to connect with your audience, increase brand awareness."
+    },
+    {
+        "id": "29",
+        "icon": "icon-notification",
+        "title": "Pay-Per-Click Advertising",
+        "desc": "Running targeted advertising campaigns on platforms like Google Ads to drive immediate traffic and conversions."
+    },
+    {
+        "id": "30",
+        "icon": "icon-hand-touch",
+        "title": "Content Marketing",
+        "desc": "Creating valuable and relevant content to attract and engage your target audience, building trust and authority."
+    },
+    {
+        "id": "31",
+        "icon": "icon-user-sync",
+        "title": "Technology Consulting",
+        "desc": "Expert guidance to align technology with business goals, improving efficiency and growth.",
+        "to": "/Technology Consulting"
+      },
+      {
+        "id": "32",
+        "icon": "icon-device-cloud",
+        "title": "Cloud Computing Platforms",
+        "desc": "Build scalable, secure, and cost-optimized cloud infrastructure with expert guidance and transformative strategies.",
+        "to": "/cloud-computing"
+      },
+      {
+        "id": "33",
+        "icon": "icon-cloud-dots",
+        "title": "Cybersecurity Protection Services",
+        "desc": "Advanced security strategies and compliance solutions that protect your enterprise and build long-term digital trust.",
+        "to": "/cybersecurity-solutions"
+      },
+      {
+        "id": "34",
+        "icon": "icon-phone-cloud",
+        "title": "Custom Digital Development",
+        "desc": "Tailored web, mobile, and enterprise applications designed to engage users, streamline workflows, and accelerate growth.",
+        "to": "/data-analytics"
+      },
+      {
+        "id": "35",
+        "icon": "icon-device-sync",
+        "title": "Migration & Integration Services",
+        "desc": "Simplify transitions from legacy systems to modern platforms with secure, seamless migration and integration support tailored to your enterprise needs.",
+        "to": "/software-development"
+      },
+      {
+        "id": "36",
+        "icon": "icon-coin-user",
+        "title": "Business Strategy Analysis",
+        "desc": "Business Strategy Analysis helps organizations evaluate performance, identify opportunities, and create data-driven roadmaps that drive sustainable growth and competitive advantage.",
+        "to": "/business-strategy"
+      },
+      {
+        "id": "37",
+        "icon": "icon-user-time",
+        "title": "Growth Marketing Services",
+        "desc": "Growth Marketing Services help businesses accelerate customer acquisition, boost brand visibility, and drive measurable ROI through data-driven strategies, multi-channel campaigns, and continuous optimization.",
+        "to": "/project-management"
+      },
+      {
+        "id": "38",
+        "icon": "icon-hand-up",
+        "title": "Localization And Translation",
+        "desc": "Adapting content and communication for global audiences with cultural accuracy.",
+        "to": "/operational-optimization"
+      },
+      {
+        "id": "39",
+        "icon": "icon-device-cloud",
+        "title": "Process Automation Solutions",
+        "desc": "Streamlining workflows with automation tools to improve speed, accuracy, and productivity.",
+        "to": "/digital-consulting"
+      },
+      {
+        "id": "40",
+        "icon": "icon-target-chart",
+        "title": "AI Innovation Services",
+        "desc": "Leveraging artificial intelligence to create smarter, more efficient business solutions.",
+        "to": "/marketing-strategy"
+      },
+      {
+        "id": "31",
+        "icon": "icon-user-chart",
+        "title": "Leadership Development Programs",
+        "desc": "Empowering leaders with skills and insights to drive innovation and inspire teams.",
+        "to": "/leadership-development"
+      },
+      {
+        "id": "32",
+        "icon": "icon-user-chart",
+        "title": "service detail",
+        "desc": "Empowering leaders with skills and insights to drive innovation and inspire teams.",
+        "to": "/leadership-development"
+      }
+]

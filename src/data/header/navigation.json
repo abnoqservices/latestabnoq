@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Home",
+    "menuname": "Home",
+    "to": "/"
+  },
+  {
+    "title": "Solutions",
+    "to": "#!",
+    "subMenu": [
+      {
+        "title": "Enterprise IT Infrastructure",
+        "menuname": "Enterprise IT Infrastructure",
+        "to": "/enterprise-it-infrastructure",
+        "icon": "icon-phone-sync"
+      },
+      {
+        "title": "Technology Consulting Advisory",
+        "menuname": "Technology Consulting",
+        "to": "/technology-consulting-advisory",
+        "icon": "icon-user-sync"
+      },
+      {
+        "title": "Cloud Computing Solutions",
+        "menuname": "Cloud Computing Platforms",
+        "to": "/cloud-computing-solutions",
+        "icon": "icon-device-cloud"
+      },
+      {
+        "title": "Cybersecurity Protection Services",
+        "menuname": "Cybersecurity Solutions",
+        "to": "/cybersecurity-protection-services",
+        "icon": "icon-cloud-dots"
+      },
+      {
+        "title": "Custom Digital Development",
+        "menuname": "Digital Development",
+        "to": "/custom-digital-development",
+        "icon": "icon-phone-cloud"
+      },
+      {
+        "title": "Migration & Integration Services",
+        "menuname": "Migration Management",
+        "to": "/migration-&-integration-services",
+        "icon": "icon-device-sync"
+      },
+      {
+        "title": "Business Strategy Analysis",
+        "menuname": "Business Strategy Analysis",
+        "to": "/business-strategy-analysis",
+        "icon": "icon-coin-user"
+      },
+      {
+        "title": "Growth Marketing Services",
+        "menuname": "Growth Marketing Solutions",
+        "to": "/growth-marketing-services",
+        "icon": "icon-user-time"
+      },
+      {
+        "title": "Localization And Translation",
+        "menuname": "Localization Services",
+        "to": "/localization-and-translation",
+        "icon": "icon-hand-up"
+      },
+      {
+        "title": "Process Automation Solutions",
+        "menuname": "Process Automation",
+        "to": "/process-automation-solutions",
+        "icon": "icon-device-cloud"
+      },
+      {
+        "title": "AI Innovation Services",
+        "menuname": "AI Innovation Solutions",
+        "to": "/ai-innovation-services",
+        "icon": "icon-target-chart"
+      },
+      {
+        "title": "Reputation & Pr Services",
+        "menuname": "Reputation & Pr Services",
+        "to": "/reputation-&-pr-services",
+        "icon": "icon-user-chart"
+      }
+    ]
+  },
+  {
+    "title": "Company",
+    "to": "/about-us"
+   
+  },
+  
+  {
+    "title": "Case Studies",
+    "menuname": "Case Studies",
+    "to": "/case-study"
+   },
+   {
+    "title": "Career",
+    "to": "/career"
+   
+  }
+]

@@ -1,0 +1,733 @@
+[
+  {
+    "id": 1,
+    "urltitle":"hybrid-it-infrastructure-manufacturing",
+    "title": "Scaling Enterprise IT: How a Hybrid Infrastructure Reduced Downtime by 40%",
+    "Metatitle": "Hybrid IT Infrastructure Case Study | AbnoQ Manufacturing",
+    "Metadescription": "Learn how AbnoQ modernized IT for a global manufacturer, reducing downtime by 40% and enabling scalable, secure operations.",
+    "MetaKeywords": "Hybrid IT, Cloud Migration, IT Infrastructure, AbnoQ Case Study, Manufacturing IT",
+    "OGTitle": "How AbnoQ Built a Hybrid IT Backbone for Global Growth",
+    "OGDescription": "Discover how AbnoQ designed a hybrid IT infrastructure that cut downtime, boosted productivity, and prepared a manufacturer for global expansion.",
+    "OGImage": "/images/blog/1290x837.png",
+    "category": "IT Modernization",
+    "author": "Lindsay Weinberg",
+    "description": "Discover how AbnoQ designed a hybrid IT infrastructure that cut downtime, boosted productivity, and prepared a manufacturer for global expansion.",
+    "percent": "40",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/540x370.png",
+    "coverImage": "/images/blog/Scaling-Enterprise-IT.webp",
+  
+    "intro": {
+      "text": "For a global manufacturing enterprise, every hour of IT downtime meant stalled production lines and frustrated supply chain partners. Legacy systems were buckling under pressure. The company knew it was time for a transformation-and turned to AbnoQ for a hybrid IT strategy that could power growth, not slow it down."
+    },
+  
+    "about": {
+      "title": "Building Resilience Across Borders",
+      "description": "AbnoQ developed a hybrid IT infrastructure, blending the reliability of on-prem systems with the scalability of cloud platforms. By centralizing monitoring and automating disaster recovery, the client gained the stability they had been missing for years.",
+      "info": {
+        "client": "Global Manufacturing Enterprise",
+        "date": "March 2024",
+        "author": "AbnoQ Consulting Team"
+      },
+      "image": "/images/blog/1290x837.png"
+    },
+  
+    "services": {
+      "title": "Hybrid Infrastructure Solutions",
+      "subtitle": "Services Used",
+      "counters": [
+        { "value": "40%", "label": "Less Downtime" },
+        { "value": "20%", "label": "Revenue Growth" },
+        { "value": "450+", "label": "Systems Migrated" },
+        { "value": "75%", "label": "Faster Recovery Times" }
+      ]
+    },
+  
+    "benefits": {
+      "title": "The Benefits They Have Gained From Using It",
+      "description": "At Abnoq, we understand that selecting the right partner for your technology needs is a critical decision. We believe that we are the perfect fit for you, and here's why.",
+      "items": [
+        {
+          "title": "Efficient Operations",
+          "description": "Centralized monitoring streamlined IT management across plants.",
+          "icon": "Target"
+        },
+        {
+          "title": "Enhanced Productivity",
+          "description": "Teams accessed systems faster, eliminating bottlenecks.",
+          "icon": "ChartBar"
+        },
+        {
+          "title": "Minimized Incidents",
+          "description": "Predictive maintenance and automated recovery kept production running.",
+          "icon": "ChartLineDown"
+        },
+         {
+          "title": "Future Scalability",
+          "description": "The new IT backbone was designed to support expansion into new markets.",
+          "icon": "ChartLineDown"
+        }
+      ],
+      "image": "/images/component/bg-case-detail-benefit.png"
+    },
+  
+    "project": {
+      "titleLeft": "What The Project Means For Us",
+      "descriptionLeft": "This project showed that modernization is more than new tools-it’s about enabling resilience. Helping this manufacturer slash downtime and future-proof their operations reinforced AbnoQ’s role as a strategic IT partner.",
+      "titleRight": "Features",
+      "descriptionRight": "Initially, most companies opt for a manual process that involves a lot of busywork for the HR department:",
+      "features": [
+        "Centralized hybrid management",
+        "AI-powered predictive alerts",
+        "Automated recovery drills",
+        "Flexible scaling for data-heavy operations"
+      ]
+    }
+  }
+  ,
+    {
+    "id": 2,
+    "urltitle":"Cybersecurity financial enterprise",
+    "title": "Strengthening Enterprise Security: A Cyber Resilience Success Story",
+    "Metatitle": "Cybersecurity Case Study | AbnoQ Secures Financial Enterprise",
+    "Metadescription": "AbnoQ implemented Zero Trust, AI-driven monitoring, and compliance frameworks for a financial services enterprise-blocking 1M+ threats annually.",
+    "MetaKeywords": "Hybrid IT, Cloud Migration, IT Infrastructure, AbnoQ Case Study, Manufacturing IT",
+    "OGTitle": "AbnoQ Cybersecurity Case Study: Financial Enterprise Defense",
+    "OGDescription": "See how AbnoQ secured customer data and ensured compliance for a financial enterprise through Zero Trust and real-time monitoring.",
+    "OGImage": "/images/blog/1290x837.png",
+    "category": "Cybersecurity",
+    "author": "Lindsay Weinberg",
+    "description": "See how AbnoQ secured customer data and ensured compliance for a financial enterprise through Zero Trust and real-time monitoring.",
+    "percent": "40",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/Hybrid-Infrastructure-Reduced.jpg",
+    "coverImage": "/images/blog/Strengthening-Enterprise.JPg",
+  
+    "intro": {
+      "text": "A financial services company was one scare away from a major breach. Their defenses were patchwork, audits were stressful, and leadership worried about customer trust. AbnoQ partnered with them to reimagine security-building a system that could withstand modern threats and regulatory demands."
+    },
+  
+    "about": {
+      "title": "From Patchwork to Proactive Protection",
+      "description": "AbnoQ introduced Zero Trust architecture, layered encryption, and AI-driven monitoring. Within weeks, the client’s security posture transformed from reactive to resilient.",
+      "info": {
+        "client": "Financial Services Provider",
+        "date": "July 2024",
+        "author": "AbnoQ Security Team"
+      },
+      "image": "/images/blog/1290x837.png"
+    },
+  
+    "services": {
+      "title": "Cybersecurity Solutions",
+      "subtitle": "Services Used",
+      "counters": [
+        { "value": "1M+", "label": "Threats Blocked Per Year" },
+        { "value": "40%", "label": "Faster Detection" },
+        { "value": "500+", "label": "Endpoints Secured" },
+        { "value": "100%", "label": "Compliance Audit Success" }
+      ]
+    },
+  
+    "benefits": {
+      "title": "The Benefits They Have Gained From Using It",
+      "description": "At Abnoq, we understand that selecting the right partner for your technology needs is a critical decision. We believe that we are the perfect fit for you, and here's why.",
+      "items": [
+        {
+          "title": "Efficient Security Operations",
+          "description": "Round-the-clock monitoring kept threats in check.",
+          "icon": "Target"
+        },
+        {
+          "title": "Enhanced Productivity",
+          "description": "Employees worked securely with remote access enabled.",
+          "icon": "ChartBar"
+        },
+        {
+          "title": "Minimized Risk",
+          "description": "AI filtering reduced false positives and caught real threats earlier.",
+          "icon": "ChartLineDown"
+        },
+         {
+          "title": "Regulatory Confidence",
+          "description": "Compliance standards were met with ease, not fear.",
+          "icon": "ChartLineDown"
+        }
+      ],
+      "image": "/images/component/bg-case-detail-benefit.png"
+    },
+  
+    "project": {
+      "titleLeft": "What The Project Means For Us",
+      "descriptionLeft": "This project was a reminder that cybersecurity is about more than firewalls-it’s about trust. By protecting sensitive data and building compliance into the system, AbnoQ gave the client confidence to grow securely.",
+      "titleRight": "Features",
+      "descriptionRight": "Initially, most companies opt for a manual process that involves a lot of busywork for the HR department:",
+      "features": [
+        "Zero Trust access policies",
+        "AI-driven SIEM monitoring",
+        "Automated incident playbooks",
+        "Regular penetration testing"
+      ]
+    }
+  },
+  
+  
+  {
+    "id": 3,
+    "urltitle":"custom-digital-development-retail",
+    "title": "Driving Growth With Custom Digital Platforms: A Retail Success Story",
+    "Metatitle": "Retail Case Study | AbnoQ Custom Digital Development",
+    "Metadescription": "AbnoQ developed a custom digital ecosystem for a retail chain, boosting sales by 30%, cutting manual work by 60%, and enhancing customer loyalty.",
+    "MetaKeywords": "Hybrid IT, Cloud Migration, IT Infrastructure, AbnoQ Case Study, Manufacturing IT",
+    "OGTitle": "How AbnoQ Built a Custom Digital Platform for Retail Growth",
+    "OGDescription": "See how AbnoQ combined e-commerce, CRM, and analytics into a tailored solution that transformed retail operations.",
+    "OGImage": "/images/blog/1290x837.png",
+    "category": "Digital Development",
+    "author": "Lindsay Weinberg",
+    "description": "See how AbnoQ secured customer data and ensured compliance for a financial enterprise through Zero Trust and real-time monitoring.",
+    "percent": "40",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/Driving-Growth.png",
+    "coverImage": "/images/blog/Custom-Digital-Platforms.png",
+  
+    "intro": {
+      "text": "A national retailer had a common problem with big consequences: outdated systems. Checkouts were slow, data was scattered, and customers were slipping away. They needed a digital reset. AbnoQ helped design a custom platform that put customers back at the heart of the business."
+    },
+  
+    "about": {
+      "title": "Unifying Systems, Unlocking Growth",
+      "description": "AbnoQ created a web and mobile ecosystem that combined e-commerce, CRM, and analytics. The result was a platform built for scale-one that made shopping smoother and management smarter.",
+      "info": {
+        "client": "National Retail Chain",
+        "date": "March 2024",
+        "author": "AbnoQ Digital Team"
+      },
+      "image": "/images/blog/1290x837.png"
+    },
+  
+    "services": {
+      "title": "Custom Development Solutions",
+      "subtitle": "Services Used",
+      "counters": [
+        { "value": "30%", "label": "Increase in Online Sales" },
+        { "value": "70%", "label": "Faster Checkouts" },
+        { "value": "1M+", "label": "Customer Profiles Managed" },
+        { "value": "60%", "label": "Less Manual Processing" }
+      ]
+    },
+  
+    "benefits": {
+      "title": "The Benefits They Have Gained From Using It",
+      "description": "At Abnoq, we understand that selecting the right partner for your technology needs is a critical decision. We believe that we are the perfect fit for you, and here's why.",
+      "items": [
+        {
+          "title": "Efficient IT Operations",
+          "description": "Data and workflows now moved seamlessly across systems.",
+          "icon": "Target"
+        },
+        {
+          "title": "Enhanced Productivity",
+          "description": "Automations freed staff to focus on customers.",
+          "icon": "ChartBar"
+        },
+        {
+          "title": "Minimized Downtime",
+          "description": "Cloud-native design kept systems stable during peak demand.",
+          "icon": "ChartLineDown"
+        },
+         {
+          "title": "Customer Loyalty",
+          "description": "Personalized experiences drove repeat purchases and retention.",
+          "icon": "ChartLineDown"
+        }
+      ],
+      "image": "/images/component/bg-case-detail-benefit.png"
+    },
+  
+    "project": {
+      "titleLeft": "What The Project Means For Us",
+      "descriptionLeft": "This project was proof that digital development is not one-size-fits-all. By tailoring every element to the client’s needs, AbnoQ delivered a platform that didn’t just support business-it grew it.",
+      "titleRight": "Features",
+      "descriptionRight": "Initially, most companies opt for a manual process that involves a lot of busywork for the HR department:",
+      "features": [
+        "AI-powered recommendations",
+        "Real-time ERP integration",
+        "Unified CRM dashboards",
+        "Mobile-first shopping design"
+      ]
+    }
+  },
+  
+
+
+ {
+    "id": 4,
+    "urltitle":"cloud-migration-fintech-success",
+    "title": "Cloud Migration That Cut Costs and Boosted Agility for a Fintech Enterprise",
+    "Metatitle": "Cloud Migration Case Study | AbnoQ Fintech Transformation",
+    "Metadescription": "See how AbnoQ helped a fintech firm cut IT costs by 35%, double transaction speed, and secure compliance through a seamless cloud migration.",
+    "MetaKeywords": "Hybrid IT, Cloud Migration, IT Infrastructure, AbnoQ Case Study, Manufacturing IT",
+    "OGTitle": "AbnoQ Case Study: Cloud Migration for Fintech Growth",
+    "OGDescription": "Discover how AbnoQ modernized a fintech company’s infrastructure with hybrid cloud migration-delivering agility, compliance, and 120% faster transactions.",
+    "OGImage": "/images/blog/1290x837.png",
+    "category": "Cloud Transformation",
+    "author": "Lindsay Weinberg",
+    "description": "Discover how AbnoQ modernized a fintech company’s infrastructure with hybrid cloud migration-delivering agility, compliance, and 120% faster transactions.",
+    "percent": "40",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/Cloud-Migration.jpg",
+    "coverImage": "/images/blog/Cloud-Migration.webp",
+  
+    "intro": {
+      "text": "A fast-growing fintech startup had an ambitious goal: to scale its operations without sacrificing security or compliance. But their on-premise servers told a different story-mounting costs, transaction delays, and audits that felt like uphill battles. They needed a smarter foundation for growth. That’s when AbnoQ stepped in."
+    },
+  
+    "about": {
+      "title": "Unlocking Agility With a Hybrid Cloud",
+      "description": "After a full assessment of the client’s ecosystem, AbnoQ built a custom cloud migration roadmap. Critical systems were moved into a hybrid cloud environment, keeping sensitive workloads secure while enabling faster transaction processing. Importantly, the migration was executed without interrupting daily financial operations.",
+      "info": {
+        "client": "Confidential Fintech Enterprise",
+        "date": "June 2024",
+        "author": "AbnoQ Cloud Solutions Team"
+      },
+      "image": "/images/blog/1290x837.png"
+    },
+  
+    "services": {
+      "title": "Cloud Migration & Compliance",
+      "subtitle": "Services Used",
+      "counters": [
+        { "value": "35%", "label": "Reduction in IT Costs" },
+        { "value": "120%", "label": "Faster Transaction Speed" },
+        { "value": "99.9%", "label": "System Uptime" },
+        { "value": "Full", "label": "PCI-DSS & ISO Certification" }
+      ]
+    },
+  
+    "benefits": {
+      "title": "The Benefits They Have Gained From Using It",
+      "description": "At Abnoq, we understand that selecting the right partner for your technology needs is a critical decision. We believe that we are the perfect fit for you, and here's why.",
+      "items": [
+        {
+          "title": "Efficient IT Operations",
+          "description": "The shift to the cloud eliminated hardware bottlenecks and reduced recurring overhead.",
+          "icon": "Target"
+        },
+        {
+          "title": "Enhanced Productivity",
+          "description": "Teams gained secure, remote access to applications-speeding collaboration and product launches.",
+          "icon": "ChartBar"
+        },
+        {
+          "title": "Minimized Risk",
+          "description": "Automated backups, redundancy, and disaster recovery protocols safeguarded customer data.",
+          "icon": "ChartLineDown"
+        },
+         {
+          "title": "Regulatory Confidence",
+          "description": "Audits became smoother, and compliance certifications were achieved on schedule.",
+          "icon": "ChartLineDown"
+        }
+      ],
+      "image": "/images/component/bg-case-detail-benefit.png"
+    },
+  
+    "project": {
+      "titleLeft": "What The Project Means For Us",
+      "descriptionLeft": "This engagement reinforced AbnoQ’s role as a trusted partner for fintech innovation. Cloud migration wasn’t just a technical exercise-it was a strategic leap that gave the client the confidence to expand, innovate, and serve customers without fear of downtime or data loss.",
+      "titleRight": "Features",
+      "descriptionRight": "Initially, most companies opt for a manual process that involves a lot of busywork for the HR department:",
+      "features": [
+        "Zero-downtime migration of financial systems",
+        "AI-powered monitoring of real-time transactions",
+        "End-to-end encryption across all data flows",
+        "Scalable architecture for future AI-driven fraud detection"
+      ]
+    }
+  },
+
+{
+    "id": 5,
+    "urltitle":"digital-growth-fmcg-brands",
+    "title": "Driving 5X Online Engagement Through Digital Growth & PR for FMCG Brands",
+    "Metatitle": "Digital Growth Case Study | AbnoQ Boosts FMCG Brands",
+    "Metadescription": "Discover how AbnoQ helped FMCG brands like Ashok Masale and Navarang achieve 5X engagement through digital growth, PR, and custom web platforms.",
+    "MetaKeywords": "Hybrid IT, Cloud Migration, IT Infrastructure, AbnoQ Case Study, Manufacturing IT",
+    "OGTitle": "How AbnoQ Drove 5X Engagement for FMCG Brands",
+    "OGDescription": "See how AbnoQ transformed FMCG marketing with tailored digital growth strategies-web platforms, social media, and PR campaigns that built lasting impact.",
+    "OGImage": "/images/blog/1290x837.png",
+    "category": "Digital Growth",
+    "author": "Lindsay Weinberg",
+    "description": " See how AbnoQ transformed FMCG marketing with tailored digital growth strategies-web platforms, social media, and PR campaigns that built lasting impact.",
+    "percent": "40",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/Driving 5X-Online-Engagement.png",
+    "coverImage": "/images/blog/Online-Engagement-Through.png",
+  
+    "intro": {
+      "text": "In today’s FMCG landscape, shelf presence is no longer enough. Consumers discover brands online before they see them in stores. For traditional players like Ashok Masale, Navarang, and Swastik Sattu, this shift was both a challenge and an opportunity. AbnoQ partnered with them to reimagine digital growth and amplify visibility through modern marketing strategies."
+    },
+  
+    "about": {
+      "title": "From Local Favorites to Digital Leaders",
+      "description": "These brands had strong offline recognition but limited online engagement. AbnoQ built custom websites, optimized campaigns, and launched PR-driven digital storytelling to connect with modern audiences.",
+      "info": {
+        "client": "Ashok Masale, Navarang Masale, Swastik Sattu (FMCG Brands)",
+        "date": "November 2023",
+        "author": "AbnoQ Digital Marketing Team"
+      },
+      "image": "/images/blog/1290x837.png"
+    },
+  
+    "services": {
+      "title": "Digital Growth Solutions",
+      "subtitle": "Services Used",
+      "counters": [
+        { "value": "5X", "label": "Engagement Growth" },
+        { "value": "60%", "label": "More Website Traffic" },
+        { "value": "40%", "label": "Higher Sales Conversions" },
+        { "value": "Expanded", "label": "Reach Across 3 Regions" }
+      ]
+    },
+  
+    "benefits": {
+      "title": "The Benefits They Have Gained From Using It",
+      "description": "At Abnoq, we understand that selecting the right partner for your technology needs is a critical decision. We believe that we are the perfect fit for you, and here's why.",
+      "items": [
+        {
+          "title": "Efficient Marketing Operations",
+          "description": "Centralized digital campaigns streamlined brand messaging.",
+          "icon": "Target"
+        },
+        {
+          "title": "Enhanced Productivity",
+          "description": "Teams managed promotions and campaigns faster through unified dashboards.",
+          "icon": "ChartBar"
+        },
+        {
+          "title": "Minimized Costs",
+          "description": "Digital-first strategies reduced traditional ad spend while improving ROI.",
+          "icon": "ChartLineDown"
+        },
+         {
+          "title": "Stronger Brand Trust",
+          "description": "PR campaigns built credibility and reinforced customer loyalty.",
+          "icon": "ChartLineDown"
+        }
+      ],
+      "image": "/images/component/bg-case-detail-benefit.png"
+    },
+  
+    "project": {
+      "titleLeft": "What The Project Means For Us",
+      "descriptionLeft": "This project showcased AbnoQ’s ability to merge digital platforms with cultural storytelling. By transforming how FMCG brands engaged with audiences, we not only boosted sales but also helped them stay relevant in a digital-first marketplace.",
+      "titleRight": "Features",
+      "descriptionRight": "Initially, most companies opt for a manual process that involves a lot of busywork for the HR department:",
+      "features": [
+        "Custom websites with e-commerce capability",
+        "Social media management with real-time analytics",
+        "PR storytelling campaigns for brand reputation",
+        "SEO & paid campaigns for growth marketing"
+      ]
+    }
+  },
+  
+  {
+    "id": 6,
+    "urltitle":"adobe-product-localization-translation",
+    "title": "Supporting Adobe With Product Localization & Translation Services",
+    "Metatitle": "Adobe Product Localization Case Study | AbnoQ Translation Services",
+    "Metadescription": "See how AbnoQ helped Adobe localize key products and content into multiple languages-boosting adoption, customer experience, and global accessibility.",
+    "MetaKeywords": "Hybrid IT, Cloud Migration, IT Infrastructure, AbnoQ Case Study, Manufacturing IT",
+    "OGTitle": "How AbnoQ Supported Adobe With Product Localization",
+    "OGDescription": "Discover how AbnoQ partnered with Adobe to deliver accurate localization and translation for product interfaces and documentation, improving customer adoption worldwide.",
+    "OGImage": "/images/blog/1290x837.png",
+    "category": "Localization & Translation",
+    "author": "Lindsay Weinberg",
+    "description": " Discover how AbnoQ partnered with Adobe to deliver accurate localization and translation for product interfaces and documentation, improving customer adoption worldwide.",
+    "percent": "40",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/Supporting-Adobe.png",
+    "coverImage": "/images/blog/Supporting-Adobe.webp",
+  
+    "intro": {
+      "text": "Adobe’s global user base spans over 100 countries, and ensuring accessibility in every market is critical. While English-first releases were strong, customer adoption in non-English regions required precise localization and cultural adaptation. Adobe turned to AbnoQ for product-level localization and translation support, making their tools more intuitive for diverse users."
+    },
+  
+    "about": {
+      "title": "Making Adobe Products Truly Global",
+      "description": "AbnoQ collaborated with Adobe teams on specific product interfaces, documentation, and marketing content, adapting them into multiple languages. Each translation went through cultural validation to ensure tone, accuracy, and brand consistency.",
+      "info": {
+        "client": "Adobe Systems (Product Division)",
+        "date": "February 2024",
+        "author": "AbnoQ Localization Team"
+      },
+      "image": "/images/blog/1290x837.png"
+    },
+  
+    "services": {
+      "title": "Product Localization & Translation",
+      "subtitle": "Services Used",
+      "counters": [
+        { "value": "8+", "label": "Languages Localized" },
+        { "value": "35%", "label": "Faster Rollouts in New Markets" },
+        { "value": "Improved", "label": "Regional Adoption Rates" },
+        { "value": "Higher End", "label": "User Satisfaction Scores" }
+      ]
+    },
+  
+    "benefits": {
+      "title": "The Benefits They Have Gained From Using It",
+      "description": "At Abnoq, we understand that selecting the right partner for your technology needs is a critical decision. We believe that we are the perfect fit for you, and here's why.",
+      "items": [
+        {
+          "title": "Efficient Workflows",
+          "description": "Standardized translation processes reduced time-to-market for product updates.",
+          "icon": "Target"
+        },
+        {
+          "title": "Improved Accessibility",
+          "description": "Localized UI and documentation made products easier for non-English users.",
+          "icon": "ChartBar"
+        },
+        {
+          "title": "Cultural Relevance",
+          "description": "Careful adaptation ensured messaging resonated with local audiences.",
+          "icon": "ChartLineDown"
+        },
+         {
+          "title": "Customer Trust",
+          "description": "Consistency across languages reinforced Adobe’s global reputation.",
+          "icon": "ChartLineDown"
+        }
+      ],
+      "image": "/images/component/bg-case-detail-benefit.png"
+    },
+  
+    "project": {
+      "titleLeft": "What The Project Means For Us",
+      "descriptionLeft": "Helping Adobe localize products was a milestone for AbnoQ. It proved that localization is more than translation-it’s about enhancing user experience and empowering adoption worldwide.",
+      "titleRight": "Features",
+      "descriptionRight": "Initially, most companies opt for a manual process that involves a lot of busywork for the HR department:",
+      "features": [
+        "Product UI localization for key Adobe tools",
+        "Technical documentation translated into 8+ languages",
+        "Transcreation for region-specific marketing content",
+        "Integrated AI + human translation management systems"
+      ]
+    }
+  },
+
+
+
+  {
+    "id": 7,
+    "title": "Optimizing Healthcare Operations with Data Analytics",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Customer Satisfy",
+    "percent": "65",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/1290x837.png",
+    "coverImage": "/images/blog/1290x837.png"
+  },
+  {
+    "id": 8,
+    "title": "Securing Financial Data: A Banking Case Study",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Online Presence",
+    "percent": "76",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/1290x837.png",
+    "coverImage": "/images/blog/1290x837.png"
+  },
+  {
+    "id": 9,
+    "title": "Scaling E-Learning Platforms for Remote Education",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Sales Revenue",
+    "percent": "80",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/1290x837.png",
+    "coverImage": "/images/blog/1290x837.png"
+  },
+  {
+    "id": 10,
+    "title": "Digital Agency's Success with E-commerce Platform Optimization",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Customer Expansion",
+    "percent": "50",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/1290x837.png",
+    "coverImage": "/images/blog/1290x837.png"
+  },
+  {
+    "id": 11,
+    "title": "Implementing a Chatbot Solution for a Financial Services Company",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Project Delivery",
+    "percent": "40",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/1290x837.png",
+    "coverImage": "/images/blog/1290x837.png"
+  },
+  {
+    "id": 12,
+    "title": "Comprehensive Digital Marketing Strategy for a Local Business",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Project Delivery",
+    "percent": "40",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/1290x837.png",
+    "coverImage": "/images/blog/1290x837.png"
+  },
+  {
+    "id": 13,
+    "title": "How an IT Service Firm Improved Cybersecurity for a Retail Chain",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Project Delivery",
+    "percent": "40",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/1290x837.png",
+    "coverImage": "/images/blog/1290x837.png"
+  },
+  {
+    "id": 14,
+    "title": "Redesigning a Travel Agency’s Website for Increased Conversions",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Project Delivery",
+    "percent": "40",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/1290x837.png",
+    "coverImage": "/images/blog/1290x837.png"
+  },
+  {
+    "id": 15,
+    "title": "Building a CRM System for a Real Estate Company",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Project Delivery",
+    "percent": "40",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/1290x837.png",
+    "coverImage": "/images/blog/1290x837.png"
+  },
+  {
+    "id": 16,
+    "title": "Utilizing Analytics to Improve Website Performance",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Project Delivery",
+    "percent": "40",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/blog/1290x837.png",
+    "coverImage": "/images/blog/1290x837.png"
+  },
+  {
+    "id": 41,
+    "title": "Advanced Security Solutions",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Online Presence",
+    "percent": "68",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/portfolio/480x480.png",
+    "coverImage": "/images/portfolio/480x480.png"
+  },
+  {
+    "id": 42,
+    "title": "Transforming Online Presence",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Sales Revenue",
+    "percent": "40",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/portfolio/480x480.png",
+    "coverImage": "/images/portfolio/480x480.png"
+  },
+  {
+    "id": 43,
+    "title": "Enhancing Your Security",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Customer Expansion",
+    "percent": "60",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/portfolio/480x480.png",
+    "coverImage": "/images/portfolio/480x480.png"
+  },
+  {
+    "id": 44,
+    "title": "Data Protection",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Project Diversification",
+    "percent": "80",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/portfolio/480x480.png",
+    "coverImage": "/images/portfolio/480x480.png"
+  },
+  {
+    "id": 51,
+    "title": "Creating a Mobile Solution for a Food Delivery Service",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Sales Revenue",
+    "percent": "50",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/success-stories/410x410.png",
+    "coverImage": "/images/success-stories/410x410.png"
+  },
+  {
+    "id": 52,
+    "title": "Increasing Open Rates and Engagement for a Tech Startup",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Website Traffic",
+    "percent": "40",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/success-stories/410x410.png",
+    "coverImage": "/images/success-stories/410x410.png"
+  },
+  {
+    "id": 53,
+    "title": "Implementing RPA for a Financial Advisory Firm",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of",
+    "author": "Lindsay Weinberg",
+    "category": "Online Presence",
+    "percent": "28",
+    "brand": "/images/brand/brand.png",
+    "publicDate": "2024-05-25",
+    "thumbImage": "/images/success-stories/410x410.png",
+    "coverImage": "/images/success-stories/410x410.png"
+  }
+]
