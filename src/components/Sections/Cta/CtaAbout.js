@@ -9,7 +9,7 @@ const CtaAbout = () => {
                         <h4 className="text-white heading3 max-lg:text-center">Join Our Team Explore Exciting Opportunities</h4>
                         <p className="text-white heading6 font-normal max-lg:text-center mt-5">Empower your business with our expertise for growth and efficiency. </p>
                     </div>
-                    <Link className="button-main bg-white text-black hover:bg-black hover:text-white" href="/pages/contact-us">Join us today!</Link>
+                    <Link className="button-main bg-white text-black hover:bg-black hover:text-white" href="/contact-us">Join us today!</Link>
                 </div>
             </div>
         </section>

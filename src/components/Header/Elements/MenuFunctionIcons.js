@@ -41,7 +41,7 @@ export default function MenuFunctionIcons(props) {
           </div>
               )}
 
-          <Link href={'/pages/contact-us'} className="button-main text-button-sm max-sm:hidden">Contact</Link>
+          <Link href={'/contact-us'} className="button-main text-button-sm max-sm:hidden">Contact</Link>
         </div>
         <div className="list__icons flex items-center">
         
@@ -60,7 +60,7 @@ export default function MenuFunctionIcons(props) {
             </>
           )}
           {!hide.includes("button") && (
-            <Link href={'/pages/contact-us'} className="button-main max-sm:hidden ml-4">Get A quote</Link>
+            <Link href={'/contact-us'} className="button-main max-sm:hidden ml-4">Get A quote</Link>
           )}
         </div>
       </div>

@@ -2,7 +2,7 @@
 
 const nextConfig = {
   env: {
-    PUBLIC_URL: "https://abnoq.com",
+    PUBLIC_URL: ".",
   },
   images: {
     remotePatterns: [

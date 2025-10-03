@@ -16,7 +16,7 @@ const CounterSix = () => {
                         <h3 className="heading3">Ready to Dominate the Online Market?</h3>
                         <div className="desc mt-5">Welcome to us - a dedicated and professional finance company committed to elevating your financial prosperity. Leveraging our extensive financial knowledge, we craft tailored solutions to help you achieve personal</div>
                         <div className="group-btn flex items-center flex-wrap gap-3 md:mt-8 mt-5">
-                            <Link href={"/pages/contact-us"} className="button-main bg-purple rounded">Let's Talk!</Link>
+                            <Link href={"/contact-us"} className="button-main bg-purple rounded">Let's Talk!</Link>
                             <Link
                                 href='#!'
                                 scroll={false}

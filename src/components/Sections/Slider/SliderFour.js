@@ -97,7 +97,7 @@ const SliderFour = () => {
                     <div className="text-label text-white">Experience Digital Excellence with Us</div>
                     <h2 className="heading1 text-white mt-4">Transform Your <br />Brand's Digital <br />Landscape</h2>
                     <div className="group-btn flex items-center flex-wrap gap-3 md:mt-8 mt-5">
-                      <Link href='/pages/contact-us' className="button-main bg-pink">Get a free Quote</Link>
+                      <Link href='/contact-us' className="button-main bg-pink">Get a free Quote</Link>
                     </div>
                   </div>
                   <div className="sub-img absolute left-0 top-0 w-full h-full z-[-1]">

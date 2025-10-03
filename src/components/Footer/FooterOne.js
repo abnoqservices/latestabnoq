@@ -77,7 +77,7 @@ export default function FooterOne({ classname }) {
                     <li className="mt-2"><Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/blog">Blog</Link></li>
                     <li className="mt-2"><Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/case-study">Case Studies</Link></li>
                     <li className="mt-2"><Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/career">Career</Link></li>
-                    <li className="mt-2"><Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/pages/contact-us">Contact</Link></li>
+                    <li className="mt-2"><Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/contact-us">Contact</Link></li>
                   </ul>
                 </div>
 

@@ -17,7 +17,7 @@ export default function SliderOne({ data, className }) {
 
 
               <Link className="button-main" href="about-us">Quick Audit</Link>
-              <Link className="button-main bg-grey" href="/pages/contact-us">AI Strategy Call</Link>
+              <Link className="button-main bg-grey" href="/contact-us">AI Strategy Call</Link>
 
 
             </div>

@@ -31,7 +31,7 @@ const SliderSeven = () => {
               </div>
               <div className="about bg-blue py-7 px-10 flex items-center justify-between">
                 <div className="heading4 text-white">Ready to Ignite Your Digital Presence?</div>
-                <Link className="button-main bg-white text-black hover:bg-black" href="/pages/contact-us">Get a free Quote</Link>
+                <Link className="button-main bg-white text-black hover:bg-black" href="/contact-us">Get a free Quote</Link>
               </div>
             </div>
           </div>

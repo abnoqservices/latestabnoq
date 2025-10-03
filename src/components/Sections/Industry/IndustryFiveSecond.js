@@ -10,7 +10,7 @@ const IndustryFiveSecond = () => {
                         <div className="text-title text-white mt-4">Let us guide you towards a secure financial future.</div>
                         <div className="flex items-center gap-5 mt-4">
                             <Link href={'about-us/our-teams'} className="button-main bg-green text-black">Our Team</Link>
-                            <Link href={'/pages/contact-us'} className="caption1 font-bold text-white border-b-2 border-green hover:text-green duration-300">Join Our Team</Link>
+                            <Link href={'/contact-us'} className="caption1 font-bold text-white border-b-2 border-green hover:text-green duration-300">Join Our Team</Link>
                         </div>
                     </div>
                 </div>

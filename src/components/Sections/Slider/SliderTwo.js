@@ -118,7 +118,7 @@ const SliderTwo = () => {
                     <h2 className="heading1 text-white">Crafting Growth<br />Strategies</h2>
                     <div className="body2 text-white md:mt-4 mt-2">Navigate dynamic markets with our change management expertise.</div>
                     <div className="group-btn flex items-center flex-wrap gap-3 md:mt-8 mt-5">
-                      <Link href='/pages/contact-us' className="button-main">Get a free Quote</Link>
+                      <Link href='/contact-us' className="button-main">Get a free Quote</Link>
                     </div>
                   </div>
                   <div className="sub-img absolute left-0 top-0 w-full h-full z-[-1]">

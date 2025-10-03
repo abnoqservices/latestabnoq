@@ -9,9 +9,11 @@ import CaseStudyOne from "@/components/Sections/CaseStudy/CaseStudyOne";
 import caseStudyData from "@/data/case-study/data.json"
 import { getCaseStudyData } from "@/data/case-study/data";
 import ContactOne from "@/components/Sections/Contact/ContactOne";
-
-export default async function CaseStudiesDtailOne() {
-
+import { notFound } from "next/navigation";
+export default async function CaseStudiesDtailOne({ params }) {
+    if (!params?.slug) {
+        notFound();
+      }
     const caseStudyData = await getCaseStudyData(); 
     return (
         <>

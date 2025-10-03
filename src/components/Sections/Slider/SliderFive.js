@@ -30,7 +30,7 @@ const SliderFive = () => {
                     <h2 className="heading1 text-white">Master Your <br />Financial Future <br />with <span className='text-green'>Strategic <br />Planning</span></h2>
                     <div className="body2 text-white md:mt-4 mt-2">Chart a course to financial success with expert insights and strategies. <br />Your voyage to prosperity begins here</div>
                     <div className="group-btn flex items-center flex-wrap gap-3 md:mt-8 mt-5">
-                      <Link href={"/pages/contact-us"}
+                      <Link href={"/contact-us"}
                         className="button-main bg-white text-black rounded hover:bg-green">Request a free consult</Link>
                     </div>
                   </div>
@@ -54,7 +54,7 @@ const SliderFive = () => {
                     <h2 className="heading1 text-white">Master Your <br />Financial Future <br />with <span className='text-green'>Expert <br />advice</span></h2>
                     <div className="body2 text-white md:mt-4 mt-2">Chart a course to financial success with expert insights and strategies. <br />Your voyage to prosperity begins here</div>
                     <div className="group-btn flex items-center flex-wrap gap-3 md:mt-8 mt-5">
-                      <Link href={"/pages/contact-us"}
+                      <Link href={"/contact-us"}
                         className="button-main bg-white text-black rounded hover:bg-green">Request a free consult</Link>
                     </div>
                   </div>
@@ -78,7 +78,7 @@ const SliderFive = () => {
                     <h2 className="heading1 text-white">Master Your <br />Financial Future <br />with <span className='text-green'>Professional <br />Insights</span></h2>
                     <div className="body2 text-white md:mt-4 mt-2">Chart a course to financial success with expert insights and strategies. <br />Your voyage to prosperity begins here</div>
                     <div className="group-btn flex items-center flex-wrap gap-3 md:mt-8 mt-5">
-                      <Link href={"/pages/contact-us"}
+                      <Link href={"/contact-us"}
                         className="button-main bg-white text-black rounded hover:bg-green">Request a free consult</Link>
                     </div>
                   </div>

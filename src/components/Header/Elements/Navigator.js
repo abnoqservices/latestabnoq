@@ -16,12 +16,10 @@ export default function Navigator({ disableSubmenu, className }) {
           <li
             key={index}
             className={`relative ${
-              pathname === "/" || pathname.startsWith("/home")
-                ? "active"
-                : ""
+              pathname === "/" || pathname.startsWith("/home") ? "active" : ""
             }`}
           >
-            <Link href={process.env.PUBLIC_URL + item.to}>
+            <Link href={item.to.startsWith("/") ? item.to : "/" + item.to}>
               <span>{item.menuname}</span>
             </Link>
             {item.subMenu && (
@@ -31,7 +29,7 @@ export default function Navigator({ disableSubmenu, className }) {
                     key={idx}
                     className={`${pathname === i.to ? "active" : ""}`}
                   >
-                    <Link href={i.to}>
+                    <Link href={i.to.startsWith("/") ? i.to : "/" + i.to}>
                       <span>{i.menuname}</span>
                     </Link>
                   </li>
@@ -49,7 +47,7 @@ export default function Navigator({ disableSubmenu, className }) {
             key={index}
             className={`${pathname.startsWith(item.to) ? "active" : ""}`}
           >
-            <Link href={process.env.PUBLIC_URL + item.to}>
+            <Link href={item.to.startsWith("/") ? item.to : "/" + item.to}>
               <span>{item.title}</span>
             </Link>
             <div className="dropdown-menu -wide flex">
@@ -63,8 +61,7 @@ export default function Navigator({ disableSubmenu, className }) {
                     >
                       <Link
                         className="flex items-center gap-2"
-                        href={process.env.PUBLIC_URL + "/[slug]"}
-                        as={process.env.PUBLIC_URL + "/" + convertToSlug(i.title)}
+                        href={`/${convertToSlug(i.title)}`}
                       >
                         <span
                           className={`${i.icon} text-blue text-2xl flex-shrink-0`}
@@ -74,9 +71,7 @@ export default function Navigator({ disableSubmenu, className }) {
                     </li>
                   ))}
                 </ul>
-                <div className="service-cate heading6 mt-5">
-                  Grow & Innovate
-                </div>
+                <div className="service-cate heading6 mt-5">Grow & Innovate</div>
                 <ul className="grid grid-cols-3 gap-5 gap-y-2.5 mt-2">
                   {item.subMenu.slice(6, 12).map((i, idx) => (
                     <li
@@ -85,8 +80,7 @@ export default function Navigator({ disableSubmenu, className }) {
                     >
                       <Link
                         className="flex items-center gap-2"
-                        href={process.env.PUBLIC_URL + "/[slug]"}
-                        as={process.env.PUBLIC_URL + "/" + convertToSlug(i.title)}
+                        href={`/${convertToSlug(i.title)}`}
                       >
                         <span
                           className={`${i.icon} text-blue text-2xl flex-shrink-0`}
@@ -106,10 +100,7 @@ export default function Navigator({ disableSubmenu, className }) {
                     Unlocking the Full Spectrum of IT Solutions and Business
                     Consulting for your needs
                   </div>
-                  <Link
-                    className="button-main text-button-sm mt-3"
-                    href="/pages/contact-us"
-                  >
+                  <Link className="button-main text-button-sm mt-3" href="/contact-us">
                     Contact Now
                   </Link>
 
@@ -134,29 +125,46 @@ export default function Navigator({ disableSubmenu, className }) {
                       <span className="w-6 h-6 bg-blue flex items-center justify-center rounded-full flex-shrink-0">
                         <Icon.Phone weight="fill" className="text-sm text-white" />
                       </span>
-                      <a
-                        href="tel:+919044799944"
-                        className="text-title pl-2 normal-case"
-                      >
+                      <a href="tel:+919044799944" className="text-title pl-2 normal-case">
                         +91-9044799944
                       </a>
                     </div>
 
                     {/* Social links */}
-                   <div className="list-social flex items-center gap-2.5 mt-4">
-                      <Link className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300" href="https://www.facebook.com/abnoqservices" target="_blank">
+                    <div className="list-social flex items-center gap-2.5 mt-4">
+                      <Link
+                        className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300"
+                        href="https://www.facebook.com/abnoqservices"
+                        target="_blank"
+                      >
                         <span className="icon-facebook text-base"></span>
                       </Link>
-                      <Link className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300" href="https://www.linkedin.com/company/abnoqservices" target="_blank">
+                      <Link
+                        className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300"
+                        href="https://www.linkedin.com/company/abnoqservices"
+                        target="_blank"
+                      >
                         <span className="icon-linkedin text-base"></span>
                       </Link>
-                      <Link className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300" href="https://x.com/abnoqservices" target="_blank">
+                      <Link
+                        className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300"
+                        href="https://x.com/abnoqservices"
+                        target="_blank"
+                      >
                         <span className="icon-twitter text-base"></span>
                       </Link>
-                      <Link className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300" href="https://www.youtube.com/@abnoq" target="_blank">
+                      <Link
+                        className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300"
+                        href="https://www.youtube.com/@abnoq"
+                        target="_blank"
+                      >
                         <span className="icon-youtube text-base"></span>
                       </Link>
-                      <Link className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300" href="https://www.instagram.com/abnoqservices/" target="_blank">
+                      <Link
+                        className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300"
+                        href="https://www.instagram.com/abnoqservices/"
+                        target="_blank"
+                      >
                         <span className="icon-instagram text-sm"></span>
                       </Link>
                     </div>
@@ -173,11 +181,9 @@ export default function Navigator({ disableSubmenu, className }) {
         return (
           <li
             key={index}
-            className={`relative ${
-              pathname.startsWith("/pages") ? "active" : ""
-            }`}
+            className={`relative ${pathname.startsWith("/pages") ? "active" : ""}`}
           >
-            <Link href={process.env.PUBLIC_URL + item.to}>
+            <Link href={item.to.startsWith("/") ? item.to : "/" + item.to}>
               <span>{item.title}</span>
             </Link>
             <ul className="dropdown-menu style-pages grid grid-cols-2 gap-5">
@@ -186,7 +192,7 @@ export default function Navigator({ disableSubmenu, className }) {
                   key={idx}
                   className={`${pathname.startsWith(i.to) ? "active" : ""}`}
                 >
-                  <Link href={i.to}>
+                  <Link href={i.to.startsWith("/") ? i.to : "/" + i.to}>
                     <span>{i.title}</span>
                   </Link>
                 </li>
@@ -200,11 +206,9 @@ export default function Navigator({ disableSubmenu, className }) {
       return (
         <li
           key={index}
-          className={`relative ${
-            pathname.startsWith(item.to) ? "active" : ""
-          }`}
+          className={`relative ${pathname.startsWith(item.to) ? "active" : ""}`}
         >
-          <Link href={process.env.PUBLIC_URL + item.to}>
+          <Link href={item.to.startsWith("/") ? item.to : "/" + item.to}>
             <span>{item.title}</span>
           </Link>
           {item.subMenu && item.subMenu.length > 0 && (
@@ -214,7 +218,7 @@ export default function Navigator({ disableSubmenu, className }) {
                   key={idx}
                   className={`${pathname.startsWith(i.to) ? "active" : ""}`}
                 >
-                  <Link href={i.to}>
+                  <Link href={i.to.startsWith("/") ? i.to : "/" + i.to}>
                     <span>{i.title}</span>
                   </Link>
                 </li>
@@ -233,7 +237,7 @@ export default function Navigator({ disableSubmenu, className }) {
         <ul>
           {menuData.map((item, index) => (
             <li key={index}>
-              <Link href={process.env.PUBLIC_URL + item.to}>
+              <Link href={item.to.startsWith("/") ? item.to : "/" + item.to}>
                 <span>{item.title}</span>
               </Link>
             </li>
@@ -250,4 +254,3 @@ export default function Navigator({ disableSubmenu, className }) {
     </div>
   );
 }
-
