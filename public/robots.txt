@@ -1,0 +1,11 @@
+# Block some pages
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+
+# Allow Googlebot access
+User-agent: Googlebot
+Allow: /
+
+# Sitemap location
+Sitemap: https://abnoq.com/sitemap.xml
