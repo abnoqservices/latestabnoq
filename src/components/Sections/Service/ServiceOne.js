@@ -29,7 +29,7 @@ const ServiceOne = ({ data, start, limit,bground }) => {
                 <div class="flex gap-y-4 gap-6 items-center justify-between flex-wrap max-lg:flex-col max-lg:justify-center bg-linear-blue py-7 px-10 rounded-2xl overflow-hidden">
                     <h4 class="text-white heading4 max-lg:text-center">Looking for Smarter AI-Powered Growth Solutions?</h4>
 
-                    <a class="button-main" href="/pages/growthcheck"> Get Growth Check</a>
+                    <a class="button-main" href="/solutions"> Get Growth Check</a>
 
 
                     </div>
