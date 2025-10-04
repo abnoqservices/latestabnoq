@@ -135,19 +135,19 @@ export default function FooterOne({ classname }) {
 
                 {/* Social Icons */}
                 <div className="list-social flex items-center flex-wrap gap-2.5 mt-7">
-                  <Link className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.facebook.com/abnoqservices" target="_blank">
+                  <Link aria-label="Facebook - Abnoq Services" className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.facebook.com/abnoqservices" target="_blank">
                     <i className="icon-facebook text-base"></i>
                   </Link>
-                  <Link className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.linkedin.com/company/abnoqservices" target="_blank">
+                  <Link aria-label="Linkedin - Abnoq Services"    className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.linkedin.com/company/abnoqservices" target="_blank">
                     <i className="icon-linkedin text-base"></i>
                   </Link>
-                  <Link className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://x.com/abnoqservices" target="_blank">
+                  <Link  aria-label="Twitter - Abnoq Services" className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://x.com/abnoqservices" target="_blank">
                     <i className="icon-twitter text-base"></i>
                   </Link>
-                  <Link className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.youtube.com/@abnoq" target="_blank">
+                  <Link  aria-label="Youtube - Abnoq Services" className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.youtube.com/@abnoq" target="_blank">
                     <i className="icon-youtube text-base"></i>
                   </Link>
-                  <Link className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.instagram.com/abnoqservices/" target="_blank">
+                  <Link  aria-label="Instagram - Abnoq Services" className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.instagram.com/abnoqservices/" target="_blank">
                     <i className="icon-instagram text-sm"></i>
                   </Link>
                 </div>
@@ -181,5 +181,6 @@ export default function FooterOne({ classname }) {
     </footer>
   );
 }
+
 
 
