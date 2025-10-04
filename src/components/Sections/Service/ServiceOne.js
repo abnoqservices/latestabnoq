@@ -27,7 +27,7 @@ const ServiceOne = ({ data, start, limit,bground }) => {
         <section class="cta-block">
             <div class="container">
                 <div class="flex gap-y-4 gap-6 items-center justify-between flex-wrap max-lg:flex-col max-lg:justify-center bg-linear-blue py-7 px-10 rounded-2xl overflow-hidden">
-                    <h4 class="text-white heading4 max-lg:text-center">Looking for Smarter AI-Powered Growth Solutions?</h4>
+                    <div class="text-white heading4 max-lg:text-center">Looking for Smarter AI-Powered Growth Solutions?</div>
 
                     <a class="button-main" href="/solutions"> Get Growth Check</a>
 
@@ -94,4 +94,5 @@ const ServiceOne = ({ data, start, limit,bground }) => {
 }
 
 export default ServiceOne
+
 
