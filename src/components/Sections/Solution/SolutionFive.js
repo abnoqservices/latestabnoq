@@ -7,7 +7,7 @@ const SolutionFive = ({ data, start, limit }) => {
         <section className="section-solution style-five bg-surface lg:py-20 sm:py-14 py-10">
             <div className="container">
                 <div className="heading flex items-center justify-between">
-                    <h3 className="heading3">Our solutions</h3>
+                    <div className="heading3">Our solutions</div>
                     <Link className="text-button border-b-2 border-green inline-block duration-300 hover:text-green whitespace-nowrap"
                         href={process.env.PUBLIC_URL + "/[slug]"}
                         as={
@@ -28,5 +28,6 @@ const SolutionFive = ({ data, start, limit }) => {
         </section>
     )
 }
+
 
 export default SolutionFive
