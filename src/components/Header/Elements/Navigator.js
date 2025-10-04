@@ -132,35 +132,35 @@ export default function Navigator({ disableSubmenu, className }) {
 
                     {/* Social links */}
                     <div className="list-social flex items-center gap-2.5 mt-4">
-                      <Link
+                      <Link aria-label="Facebook - Abnoq Services"
                         className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300"
                         href="https://www.facebook.com/abnoqservices"
                         target="_blank"
                       >
                         <span className="icon-facebook text-base"></span>
                       </Link>
-                      <Link
+                      <Link aria-label="Linkedin - Abnoq Services"
                         className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300"
                         href="https://www.linkedin.com/company/abnoqservices"
                         target="_blank"
                       >
                         <span className="icon-linkedin text-base"></span>
                       </Link>
-                      <Link
+                      <Link aria-label="Twitter - Abnoq Services"
                         className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300"
                         href="https://x.com/abnoqservices"
                         target="_blank"
                       >
                         <span className="icon-twitter text-base"></span>
                       </Link>
-                      <Link
+                      <Link aria-label="Youtube - Abnoq Services"
                         className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300"
                         href="https://www.youtube.com/@abnoq"
                         target="_blank"
                       >
                         <span className="icon-youtube text-base"></span>
                       </Link>
-                      <Link
+                      <Link aria-label="Instagram - Abnoq Services"
                         className="item rounded-full w-10 h-10 flex items-center justify-center bg-white text-surface1 hover:bg-black hover:text-white duration-300"
                         href="https://www.instagram.com/abnoqservices/"
                         target="_blank"
@@ -254,3 +254,4 @@ export default function Navigator({ disableSubmenu, className }) {
     </div>
   );
 }
+
