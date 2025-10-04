@@ -27,6 +27,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+     <meta name="google-site-verification" content="O3bQyw56L9FrBAtP-mYw6kYhQIPS2UeXDncj9PaDO5I" />
       <body className={plusJakarta.className}>
         <GlobalProvider>
           {children}
@@ -40,3 +41,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
