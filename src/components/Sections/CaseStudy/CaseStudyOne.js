@@ -13,7 +13,7 @@ const CaseStudyOne = ({ classname, data, start, limit }) => {
                 <div className="flex items-center justify-between w-full max-lg:flex-wrap gap-y-2">
                     <div className="max-lg:w-full">
                         <div className="tag text-label bg-grey text-blue">Why we do</div>
-                        <h3 className="heading3 mt-3">Case studies</h3>
+                        <div className="heading3 mt-3">Case studies</div>
                     </div>
                     <div className="xl:w-5/12 lg:w-1/2 w-full">
                         <span className="body2">Case studies that showcase the agency's approach, process, and results for specific clients.</span>
@@ -49,5 +49,6 @@ const CaseStudyOne = ({ classname, data, start, limit }) => {
         </section>
     )
 }
+
 
 export default CaseStudyOne
