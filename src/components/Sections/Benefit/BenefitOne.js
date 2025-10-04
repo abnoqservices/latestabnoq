@@ -11,7 +11,7 @@ const BenefitOne = ({ classname, data, start, limit }) => {
                             <div className="block-icon">
                                 {Icon[item.icon] && React.createElement(Icon[item.icon], { className: 'text-4xl' })}
                             </div>
-                            <h6 className="heading6 sm:mt-4 mt-2">{item.title}</h6>
+                            <div className="heading6 sm:mt-4 mt-2">{item.title}</div>
                             <div className="text-surface1 mt-2" style={{ whiteSpace: "pre-line" }}>{item.desc}</div>
                         </div>
                     ))}
@@ -20,4 +20,5 @@ const BenefitOne = ({ classname, data, start, limit }) => {
         </section>
     )
 }
+
 export default BenefitOne
