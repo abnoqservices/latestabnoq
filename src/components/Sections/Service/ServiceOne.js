@@ -12,7 +12,7 @@ const ServiceOne = ({ data, start, limit,bground }) => {
             <div className="container">
                 <div className="flex gap-y-3 items-center justify-between max-lg:flex-wrap">
                     <div className="w-full xl:w-5/12 lg:w-6/12">
-                        <h3 className="heading3">Your Trusted Partner for Smart Business Growth </h3>
+                        <div className="heading3">Your Trusted Partner for Smart Business Growth </div>
                     </div>
                     <div className="w-full lg:w-6/12">
 
@@ -94,3 +94,4 @@ const ServiceOne = ({ data, start, limit,bground }) => {
 }
 
 export default ServiceOne
+
