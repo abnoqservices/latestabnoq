@@ -8,7 +8,7 @@ const AboutOne = () => {
                     <div className="heading flex max-lg:flex-col gap-y-4 md:pb-10 pb-8 border-b border-line">
                         <div className="w-full xl:w-5/12 lg:w-1/2">
                             <div className="tag text-label bg-blue text-white">About Us</div>
-                            <h3 className="heading4 text-white mt-4">Solving Global Business & Technology Challenges with AI</h3>
+                            <div className="heading4 text-white mt-4">Solving Global Business & Technology Challenges with AI</div>
                         </div>
                         <div className="w-full lg:w-1/2">
                             <div className="desc text-white">At AbnoQ, we go beyond technology-we design AI-powered solutions that help businesses build strong foundations, grow visibility, automate smarter, and expand globally. Trusted by clients worldwide, we deliver results through cultural intelligence, multilingual expertise, and seamless execution.</div>
@@ -41,4 +41,5 @@ const AboutOne = () => {
         </section>
     )
 }
+
 export default AboutOne
