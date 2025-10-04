@@ -7,7 +7,7 @@ const SolutionThree = ({ data, start, limit }) => {
         <section className="section-solution lg:mt-20 sm:mt-14 mt-10">
             <div className="container">
                 <div className="heading flex items-center justify-between">
-                    <h3 className="heading3 ">Our solutions</h3>
+                    <div className="heading3 ">Our solutions</div>
                     <Link className="text-button border-b-2 border-yellow inline-block duration-300 hover:text-yellow whitespace-nowrap"
                         href={process.env.PUBLIC_URL + "/[slug]"}
                         as={
@@ -28,4 +28,5 @@ const SolutionThree = ({ data, start, limit }) => {
         </section>
     )
 }
+
 export default SolutionThree
