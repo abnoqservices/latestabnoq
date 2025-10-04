@@ -8,7 +8,7 @@ const StoriesSix = () => {
         <section className="section-stories lg:mt-20 sm:mt-14 mt-10">
             <div className="container">
                 <div className="heading flex items-center justify-between">
-                    <h3 className="heading3">Success stories</h3>
+                    <div className="heading3">Success stories</div>
                     <Link className="text-button border-b-2 border-purple inline-block duration-300 hover:text-purple whitespace-nowrap"
                         href={process.env.PUBLIC_URL + "/case-study"}
                     >
@@ -24,4 +24,5 @@ const StoriesSix = () => {
         </section>
     )
 }
+
 export default StoriesSix
