@@ -6,21 +6,22 @@ const BannerOne = () => {
     return (
         <section className={`banner-block bg-blue py-7`}>
             <Marquee>
-                <h4 className={`heading4 text-white uppercase px-[60px]`}>Experience Seamless IT Solutions</h4>
+                <span className={`heading4 text-white uppercase px-[60px]`}>Experience Seamless IT Solutions</span>
                 <Image src={'/images/fav-white.svg'} width={5000} height={5000} alt='fav-white' className='w-[50px]' />
-                <h4 className={`heading4 text-white uppercase px-[60px]`}>Request IT Consultation</h4>
+                <span className={`heading4 text-white uppercase px-[60px]`}>Request IT Consultation</span>
                 <Image src={'/images/fav-white.svg'} width={5000} height={5000} alt='fav-white' className='w-[50px]' />
-                <h4 className={`heading4 text-white uppercase px-[60px]`}>Experience Seamless IT Solutions</h4>
+                <span className={`heading4 text-white uppercase px-[60px]`}>Experience Seamless IT Solutions</span>
                 <Image src={'/images/fav-white.svg'} width={5000} height={5000} alt='fav-white' className='w-[50px]' />
-                <h4 className={`heading4 text-white uppercase px-[60px]`}>Request IT Consultation</h4>
+                <span className={`heading4 text-white uppercase px-[60px]`}>Request IT Consultation</span>
                 <Image src={'/images/fav-white.svg'} width={5000} height={5000} alt='fav-white' className='w-[50px]' />
-                <h4 className={`heading4 text-white uppercase px-[60px]`}>Experience Seamless IT Solutions</h4>
+                <span className={`heading4 text-white uppercase px-[60px]`}>Experience Seamless IT Solutions</span>
                 <Image src={'/images/fav-white.svg'} width={5000} height={5000} alt='fav-white' className='w-[50px]' />
-                <h4 className={`heading4 text-white uppercase px-[60px]`}>Request IT Consultation</h4>
+                <span className={`heading4 text-white uppercase px-[60px]`}>Request IT Consultation</span>
                 <Image src={'/images/fav-white.svg'} width={5000} height={5000} alt='fav-white' className='w-[50px]' />
             </Marquee>
         </section>
     )
 }
+
 
 export default BannerOne
