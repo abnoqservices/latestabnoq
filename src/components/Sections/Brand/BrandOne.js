@@ -23,7 +23,7 @@ export default function BrandOne({ classname }) {
       <span className="tag text-label bg-grey text-blue text-blue mb-7">
           satisfied customers
             </span>
-        <h5 className="heading3 text-center">Trusted by Global Enterprises</h5>
+        <span className="heading3 text-center">Trusted by Global Enterprises</span>
         <div className="flex items-center justify-center mt-5">
           <div className="list lg:w-11/12 w-full mt-10">
             <Swiper
@@ -68,3 +68,4 @@ export default function BrandOne({ classname }) {
     </section>
   );
 }
+
