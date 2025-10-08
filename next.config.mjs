@@ -9,6 +9,7 @@ const nextConfig = {
   env: {
     PUBLIC_URL: "https://abnoq.com",
   },
+
   images: {
     remotePatterns: [
       {
@@ -18,11 +19,25 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
-    domains: ['aapkiyojana.org'], // for backward compatibility
+    domains: ['aapkiyojana.org'], // backward compatibility
   },
+
   typescript: {
     ignoreBuildErrors: false,
   },
+
+  // ✅ Modern JavaScript settings
+  experimental: {
+    esmExternals: true,    // Use modern ES modules
+  },
+
+  swcMinify: true, // Ensure SWC minifier is active
+
+  // ✅ Reduce legacy JS polyfills
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production', // optional optimization
+  },
+
   webpack: (config) => {
     config.resolve.fallback = { fs: false, net: false, tls: false }
     return config
