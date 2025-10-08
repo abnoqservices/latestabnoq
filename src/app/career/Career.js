@@ -184,10 +184,16 @@ export default function Careers() {
               ) : (
                 <div className="job-list">
                   {filteredJobs.map((job) => {
-                    const cleanHtml = DOMPurify.sanitize(job.description || "");
-                    const shortHtml = DOMPurify.sanitize(
-                      job.description?.split(" ").slice(0, 30).join(" ") + "..."
-                    );
+                   const description = job.description || "";
+
+                   // Split the words safely
+                   const words = description.split(" ");
+                   const shortPart = words.slice(0, 80).join(" ");
+                   const longPart = words.slice(80).join(" ");
+                   
+                   // Sanitize both separately
+                   const shortHtml = DOMPurify.sanitize(shortPart + (words.length > 80 ? "" : ""));
+                   const cleanHtml = DOMPurify.sanitize(longPart);
 
                     return (
                       <div
@@ -199,12 +205,55 @@ export default function Careers() {
                         <div className="job-header flex items-start justify-between">
                           <div className="job-info flex-1 pr-4">
                             <h5 className="heading6 text-primary mb-2">{job.title}</h5>
-                            <div className="job-meta flex flex-wrap gap-4 text-sm text-surface1 mb-2">
-                              <span className="flex items-center gap-1"><Icon.Buildings size={16} />{job.department}</span>
-                              <span className="flex items-center gap-1"><Icon.MapPin size={16} />{job.location}</span>
-                              <span className="flex items-center gap-1"><Icon.Clock size={16} />{job.type}</span>
-                              <span className="flex items-center gap-1"><Icon.User size={16} />{job.experience}</span>
-                            </div>
+                            <div className="job-meta flex flex-wrap items-center gap-4 text-sm text-gray-600 mb-3">
+  {/* Department */}
+  <span className="flex items-center gap-1">
+    <Icon.Buildings size={16} className="text-blue-500" />
+    <span className="font-medium">{job.department || "N/A"}</span>
+  </span>
+
+  {/* Location */}
+  <span className="flex items-center gap-1">
+    <Icon.MapPin size={16} className="text-red-500" />
+    <span>{job.location || "Not specified"}</span>
+  </span>
+
+  {/* Job Type */}
+  <span className="flex items-center gap-1">
+    <Icon.Clock size={16} className="text-orange-500" />
+    <span>{job.type || "N/A"}</span>
+  </span>
+
+  {/* Pay */}
+  <span className="flex items-center gap-1">
+   
+    <span className="font-semibold">{job.pay || "Negotiable"}</span>
+  </span>
+
+  {/* Experience */}
+  <span className="flex items-center gap-1">
+    <Icon.Briefcase size={16} className="text-indigo-500" />
+    <span>{job.experience || "Fresher Welcome"}</span>
+  </span>
+
+  {/* Status */}
+  <span
+    className={`flex items-center gap-1 font-semibold ${
+      job.status?.toLowerCase() === "open"
+        ? "text-green-800"
+        : job.status?.toLowerCase() === "closed"
+        ? "text-red-800"
+        : "text-gray-500"
+    }`}
+  >
+    <Icon.CheckCircle size={16} />
+    <span>
+      {job.status
+        ? job.status.charAt(0).toUpperCase() + job.status.slice(1)
+        : "Unknown"}
+    </span>
+  </span>
+</div>
 
                             {/* ✅ Always show short description */}
                             <div
@@ -223,7 +272,7 @@ export default function Careers() {
 
                         {/* ✅ Full description on expand */}
                         {selectedJob?.id === job.id && (
-                          <div className="job-details mt-4 pt-4 border-t border-outline">
+                          <div className="job-details mt-4 pt-4  border-outline">
                             <div
                               className="prose max-w-none body3 text-secondary mb-4"
                               dangerouslySetInnerHTML={{ __html: cleanHtml }}
@@ -364,9 +413,7 @@ export default function Careers() {
         </div>
       )}
 
-      {/* <CaseStudyOne classname="lg:py-20 sm:py-14 py-10 bg-linear" data={caseStudyData} start={0} limit={6} />
-      <BrandOne classname="lg:pt-20 md:pt-14 pt-10 style-subpage" />
-      <TestimonialOne data={testimonialData} /> */}
+    
     </LayoutOne>
   );
 }
