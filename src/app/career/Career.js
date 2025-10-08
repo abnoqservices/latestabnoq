@@ -184,16 +184,10 @@ export default function Careers() {
               ) : (
                 <div className="job-list">
                   {filteredJobs.map((job) => {
-                   const description = job.description || "";
-
-                   // Split the words safely
-                   const words = description.split(" ");
-                   const shortPart = words.slice(0, 80).join(" ");
-                   const longPart = words.slice(80).join(" ");
-                   
-                   // Sanitize both separately
-                   const shortHtml = DOMPurify.sanitize(shortPart + (words.length > 80 ? "" : ""));
-                   const cleanHtml = DOMPurify.sanitize(longPart);
+                    const cleanHtml = DOMPurify.sanitize(job.description || "");
+                    const shortHtml = DOMPurify.sanitize(
+                      job.description?.split(" ").slice(0, 80).join(" ") + "..."
+                    );
 
                     return (
                       <div
@@ -256,10 +250,7 @@ export default function Careers() {
 </div>
 
                             {/* ✅ Always show short description */}
-                            <div
-                              className="prose max-w-none body3 text-secondary"
-                              dangerouslySetInnerHTML={{ __html: shortHtml }}
-                            />
+
                           </div>
 
                           <div
@@ -272,7 +263,7 @@ export default function Careers() {
 
                         {/* ✅ Full description on expand */}
                         {selectedJob?.id === job.id && (
-                          <div className="job-details mt-4 pt-4  border-outline">
+                          <div className="job-details mt-4 pt-4 border-t border-outline">
                             <div
                               className="prose max-w-none body3 text-secondary mb-4"
                               dangerouslySetInnerHTML={{ __html: cleanHtml }}
