@@ -200,66 +200,64 @@ export default function Careers() {
                           <div className="job-info flex-1 pr-4">
                             <h5 className="heading6 text-primary mb-2">{job.title}</h5>
                             <div className="job-meta flex flex-wrap items-center gap-4 text-sm text-gray-600 mb-3">
-                              {/* Department */}
-                              <span className="flex items-center gap-1">
-                                <Icon.Buildings size={16} className="text-blue-500" />
-                                <span className="font-medium">{job.department || "N/A"}</span>
-                              </span>
+  {/* Department */}
+  <span className="flex items-center gap-1">
+    <Icon.Buildings size={16} className="text-blue-500" />
+    <span className="font-medium">{job.department || "N/A"}</span>
+  </span>
 
-                              {/* Location */}
-                              <span className="flex items-center gap-1">
-                                <Icon.MapPin size={16} className="text-red-500" />
-                                <span>{job.location || "Not specified"}</span>
-                              </span>
+  {/* Location */}
+  <span className="flex items-center gap-1">
+    <Icon.MapPin size={16} className="text-red-500" />
+    <span>{job.location || "Not specified"}</span>
+  </span>
 
-                              {/* Job Type */}
-                              <span className="flex items-center gap-1">
-                                <Icon.Clock size={16} className="text-orange-500" />
-                                <span>{job.type || "N/A"}</span>
-                              </span>
+  {/* Job Type */}
+  <span className="flex items-center gap-1">
+    <Icon.Clock size={16} className="text-orange-500" />
+    <span>{job.type || "N/A"}</span>
+  </span>
 
-                              {/* Pay */}
-                              <span className="flex items-center gap-1">
-                                <span className="font-semibold">{job.pay || "Negotiable"}</span>
-                              </span>
+  {/* Pay */}
+  <span className="flex items-center gap-1">
+   
+    <span className="font-semibold">{job.pay || "Negotiable"}</span>
+  </span>
 
-                              {/* Experience */}
-                              <span className="flex items-center gap-1">
-                                <Icon.Briefcase size={16} className="text-indigo-500" />
-                                <span>{job.experience || "Fresher Welcome"}</span>
-                              </span>
+  {/* Experience */}
+  <span className="flex items-center gap-1">
+    <Icon.Briefcase size={16} className="text-indigo-500" />
+    <span>{job.experience || "Fresher Welcome"}</span>
+  </span>
 
-                              {/* Status */}
-                              <span
-                                className={`flex items-center gap-1 font-semibold ${
-                                  job.status?.toLowerCase() === "open"
-                                    ? "text-green-800"
-                                    : job.status?.toLowerCase() === "closed"
-                                    ? "text-red-800"
-                                    : "text-gray-500"
-                                }`}
-                              >
-                                <Icon.CheckCircle size={16} />
-                                <span>
-                                  {job.status
-                                    ? job.status.charAt(0).toUpperCase() + job.status.slice(1)
-                                    : "Unknown"}
-                                </span>
-                              </span>
-                            </div>
+  {/* Status */}
+  <span
+    className={`flex items-center gap-1 font-semibold ${
+      job.status?.toLowerCase() === "open"
+        ? "text-green-800"
+        : job.status?.toLowerCase() === "closed"
+        ? "text-red-800"
+        : "text-gray-500"
+    }`}
+  >
+    <Icon.CheckCircle size={16} />
+    <span>
+      {job.status
+        ? job.status.charAt(0).toUpperCase() + job.status.slice(1)
+        : "Unknown"}
+    </span>
+  </span>
+</div>
 
                             {/* ✅ Always show short description */}
-                            {/* <div
-                              className="prose max-w-none body3 text-secondary"
-                              dangerouslySetInnerHTML={{ __html: shortHtml }}
-                            /> */}
+
                           </div>
 
                           <div
-                            className="expand-icon cursor-pointer p-2 hover:bg-gray-100 rounded-full transition-colors"
+                            className="expand-icon cursor-pointer"
                             onClick={() => handleJobSelect(job)}
                           >
-                            {selectedJob?.id === job.id ? <Icon.Minus size={20} /> : <Icon.Plus size={20} />}
+                            {selectedJob?.id === job.id ? <Icon.Minus /> : <Icon.Plus />}
                           </div>
                         </div>
 
@@ -302,137 +300,111 @@ export default function Careers() {
         </div>
       </section>
 
-      {/* ✅ IMPROVED Modal for Application Form - Mobile Responsive */}
+      {/* Modal for Application Form */}
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-2xl shadow-xl bg-linear w-full max-w-4xl max-h-[90vh] flex flex-col">
-            {/* Modal Header - Sticky */}
-            <div className="flex justify-between items-center p-6 border-b border-outline sticky top-0 bg-white rounded-t-2xl">
+          <div className="bg-white rounded-2xl p-8 shadow-xl bg-linear max-w-4xl w-full max-h-[95vh]">
+            <div className="flex justify-between items-center mb-6">
               <h4 className="heading4">Apply Now</h4>
               <button 
                 onClick={closeModal}
-                className="text-gray-500 hover:text-gray-700 transition-colors p-1"
+                className="text-gray-500 hover:text-gray-700 transition-colors"
               >
                 <Icon.X size={24} />
               </button>
             </div>
             
-            {/* Modal Body - Scrollable */}
-            <div className="flex-1 overflow-y-auto p-6">
-              <form className="form-block" onSubmit={handleSubmit} ref={formRef}>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {/* Left Column */}
-                  <div className="space-y-5">
-                    <div>
-                      <label className="caption1 text-surface1">Full Name *</label>
-                      <input 
-                        ref={nameInputRef}
-                        className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" 
-                        name="name" 
-                        type="text" 
-                        placeholder="Your Name" 
-                        required 
-                      />
-                    </div>
-                    
-                    <div>
-                      <label className="caption1 text-surface1">Email Address *</label>
-                      <input 
-                        className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" 
-                        name="email" 
-                        type="email" 
-                        placeholder="your.email@example.com"
-                        required 
-                      />
-                    </div>
-                    
-                    <div>
-                      <label className="caption1 text-surface1">Phone Number</label>
-                      <input 
-                        className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" 
-                        name="phone" 
-                        type="tel" 
-                        placeholder="+1 (555) 123-4567"
-                      />
-                    </div>
+            <form className="form-block" onSubmit={handleSubmit} ref={formRef}>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {/* Left Column */}
+                <div className="space-y-5">
+                  <div>
+                    <label className="caption1 text-surface1">Full Name *</label>
+                    <input 
+                      ref={nameInputRef}
+                      className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline" 
+                      name="name" 
+                      type="text" 
+                      placeholder="Your Name" 
+                      required 
+                    />
                   </div>
-
-                  {/* Right Column */}
-                  <div className="space-y-5">
-                    <div>
-                      <label className="caption1 text-surface1">Position of Interest *</label>
-                      <select 
-                        className="w-full mt-2 pl-4 pr-12 py-3 border border-outline rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" 
-                        name="position" 
-                        value={applyPosition} 
-                        onChange={(e) => setApplyPosition(e.target.value)}
-                        required
-                      >
-                        <option value="">Select a position</option>
-                        {jobData.map((job) => (
-                          <option key={job.id} value={job.title}>{job.title}</option>
-                        ))}
-                      </select>
-                    </div>
-                    
-                    <div>
-                      <label className="caption1 text-surface1">Resume/CV</label>
-                      <input 
-                        className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-primary hover:file:bg-primary-dark" 
-                        name="resume" 
-                        type="file" 
-                        accept=".pdf,.doc,.docx"
-                      />
-                      <p className="text-xs text-gray-500 mt-1">PDF, DOC, DOCX (Max 5MB)</p>
-                    </div>
+                  
+                  <div>
+                    <label className="caption1 text-surface1">Email Address *</label>
+                    <input className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline" name="email" type="email" required />
+                  </div>
+                  
+                  <div>
+                    <label className="caption1 text-surface1">Phone Number</label>
+                    <input className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline" name="phone" type="tel" />
                   </div>
                 </div>
 
-                {/* Full Width Cover Letter */}
-                <div className="mt-6">
-                  <label className="caption1 text-surface1">Cover Letter</label>
-                  <textarea 
-                    className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline resize-none focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" 
-                    name="cover-letter" 
-                    rows="4"
-                    placeholder="Tell us why you're interested in this position and what makes you a great candidate..."
-                  ></textarea>
+                {/* Right Column */}
+                <div className="space-y-5">
+                  <div>
+                    <label className="caption1 text-surface1">Position of Interest *</label>
+                    <select 
+                      className="w-full mt-2 pl-4 pr-12 py-3 border border-outline rounded-lg" 
+                      name="position" 
+                      value={applyPosition} 
+                      onChange={(e) => setApplyPosition(e.target.value)}
+                      required
+                    >
+                      <option value="">Select a position</option>
+                      {jobData.map((job) => (
+                        <option key={job.id} value={job.title}>{job.title}</option>
+                      ))}
+                    </select>
+                  </div>
+                  
+                  <div>
+                    <label className="caption1 text-surface1">Resume/CV</label>
+                    <input 
+                      className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline" 
+                      name="resume" 
+                      type="file" 
+                      accept=".pdf,.doc,.docx"
+                    />
+                    <p className="text-xs text-gray-500 mt-1">PDF, DOC, DOCX (Max 5MB)</p>
+                  </div>
                 </div>
+              </div>
 
-                {message && (
-                  <p className={`mt-4 font-medium text-center p-3 rounded-lg ${
-                    message.includes("❌") ? "text-red-600 bg-red-50" : 
-                    message.includes("🎉") ? "text-green-600 bg-green-50" : 
-                    "text-blue-600 bg-blue-50"
-                  }`}>
-                    {message}
-                  </p>
-                )}
-              </form>
-            </div>
+              {/* Full Width Cover Letter */}
+              <div className="mt-5">
+                <label className="caption1 text-surface1">Cover Letter</label>
+                <textarea 
+                  className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline resize-none" 
+                  name="cover-letter" 
+                  rows="4"
+                  placeholder="Tell us why you're interested in this position..."
+                ></textarea>
+              </div>
 
-            {/* Modal Footer - Sticky */}
-            <div className="p-6 border-t border-outline sticky bottom-0 bg-white rounded-b-2xl">
-              <div className="flex flex-col sm:flex-row gap-3">
-                <button 
-                  type="submit" 
-                  onClick={handleSubmit}
-                  className="button-main flex-1 text-center py-3 px-6"
-                >
+              {message && (
+                <p className="mt-4 text-primary font-medium text-center">{message}</p>
+              )}
+              
+              <div className="flex gap-3 mt-6">
+                <button type="submit" className="button-main flex-1 text-center">
                   Submit Application
                 </button>
                 <button 
                   type="button" 
                   onClick={closeModal}
-                  className="px-6 py-3 border border-outline rounded-lg text-surface1 hover:bg-gray-50 transition-colors flex-1 sm:flex-none"
+                  className="px-6 py-3 border border-outline rounded-lg text-surface1 hover:bg-gray-50 transition-colors"
                 >
                   Cancel
                 </button>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       )}
+
+    
     </LayoutOne>
   );
 }
