@@ -309,7 +309,7 @@ export default function Careers() {
       {/* Modal for Application Form */}
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-2xl p-8 shadow-xl bg-linear max-w-4xl w-full max-h-[95vh]">
+          <div className="bg-white rounded-2xl p-8 shadow-xl bg-linear max-w-4xl w-full max-h-[95vh] overflow-y-auto">
             <div className="flex justify-between items-center mb-6">
               <h4 className="heading4">Apply Now</h4>
               <button 
