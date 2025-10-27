@@ -71,7 +71,12 @@ export default function Careers() {
     e.preventDefault();
     const form = e.target;
     
-    if (!form.name.value.trim() || !form.email.value.trim() || !form.position.value) {
+    // Updated validation to include city and experience
+    if (!form.name.value.trim() || 
+        !form.email.value.trim() || 
+        !form.position.value ||
+        !form.city.value.trim() ||
+        !form.experience.value) {
       setMessage("❌ Please fill in all required fields");
       return;
     }
@@ -80,7 +85,9 @@ export default function Careers() {
     formData.append("name", form.name.value.trim());
     formData.append("email", form.email.value.trim());
     formData.append("phone", form.phone.value.trim());
+    formData.append("city", form.city.value.trim()); // ✅ Added city
     formData.append("position", form.position.value || applyPosition);
+    formData.append("experience", form.experience.value); // ✅ Added experience
     formData.append("cover_letter", form["cover-letter"].value.trim());
   
     if (form.resume.files[0]) {
@@ -138,7 +145,6 @@ export default function Careers() {
       setMessage("❌ " + (err.message || "An error occurred while submitting your application"));
     }
   };
-  
   const departments = ['All', ...new Set(jobData.map(job => job.department))];
   const filteredJobs =
     filterDepartment === 'All'
@@ -314,92 +320,131 @@ export default function Careers() {
               </button>
             </div>
             
-            <form className="form-block" onSubmit={handleSubmit} ref={formRef}>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {/* Left Column */}
-                <div className="space-y-5">
-                  <div>
-                    <label className="caption1 text-surface1">Full Name *</label>
-                    <input 
-                      ref={nameInputRef}
-                      className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline" 
-                      name="name" 
-                      type="text" 
-                      placeholder="Your Name" 
-                      required 
-                    />
-                  </div>
-                  
-                  <div>
-                    <label className="caption1 text-surface1">Email Address *</label>
-                    <input className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline" name="email" type="email" required />
-                  </div>
-                  
-                  <div>
-                    <label className="caption1 text-surface1">Phone Number</label>
-                    <input className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline" name="phone" type="tel" />
-                  </div>
-                </div>
+          
 
-                {/* Right Column */}
-                <div className="space-y-5">
-                  <div>
-                    <label className="caption1 text-surface1">Position of Interest *</label>
-                    <select 
-                      className="w-full mt-2 pl-4 pr-12 py-3 border border-outline rounded-lg" 
-                      name="position" 
-                      value={applyPosition} 
-                      onChange={(e) => setApplyPosition(e.target.value)}
-                      required
-                    >
-                      <option value="">Select a position</option>
-                      {jobData.map((job) => (
-                        <option key={job.id} value={job.title}>{job.title}</option>
-                      ))}
-                    </select>
-                  </div>
-                  
-                  <div>
-                    <label className="caption1 text-surface1">Resume/CV</label>
-                    <input 
-                      className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline" 
-                      name="resume" 
-                      type="file" 
-                      accept=".pdf,.doc,.docx"
-                    />
-                    <p className="text-xs text-gray-500 mt-1">PDF, DOC, DOCX (Max 5MB)</p>
-                  </div>
-                </div>
-              </div>
+<form className="form-block" onSubmit={handleSubmit} ref={formRef}>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    {/* Left Column */}
+    <div className="space-y-5">
+      <div>
+        <label className="caption1 text-surface1">Full Name *</label>
+        <input 
+          ref={nameInputRef}
+          className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline" 
+          name="name" 
+          type="text" 
+          placeholder="Your Name" 
+          required 
+        />
+      </div>
+      
+      <div>
+        <label className="caption1 text-surface1">Email Address *</label>
+        <input 
+          className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline" 
+          name="email" 
+          type="email" 
+          placeholder="your.email@example.com"
+          required 
+        />
+      </div>
+      
+      <div>
+        <label className="caption1 text-surface1">Phone Number</label>
+        <input 
+          className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline" 
+          name="phone" 
+          type="tel"
+          placeholder="+91 1234567890"
+        />
+      </div>
+      
+      <div>
+        <label className="caption1 text-surface1">City *</label>
+        <input 
+          className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline" 
+          name="city" 
+          type="text" 
+          placeholder="Your City" 
+          required 
+        />
+      </div>
+    </div>
 
-              {/* Full Width Cover Letter */}
-              <div className="mt-5">
-                <label className="caption1 text-surface1">Cover Letter</label>
-                <textarea 
-                  className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline resize-none" 
-                  name="cover-letter" 
-                  rows="4"
-                  placeholder="Tell us why you're interested in this position..."
-                ></textarea>
-              </div>
+    {/* Right Column */}
+    <div className="space-y-5">
+      <div>
+        <label className="caption1 text-surface1">Position of Interest *</label>
+        <select 
+          className="w-full mt-2 pl-4 pr-12 py-3 border border-outline rounded-lg" 
+          name="position" 
+          value={applyPosition} 
+          onChange={(e) => setApplyPosition(e.target.value)}
+          required
+        >
+          <option value="">Select a position</option>
+          {jobData.map((job) => (
+            <option key={job.id} value={job.title}>{job.title}</option>
+          ))}
+        </select>
+      </div>
+      
+      <div>
+        <label className="caption1 text-surface1">Experience *</label>
+        <select 
+          className="w-full mt-2 pl-4 pr-12 py-3 border border-outline rounded-lg" 
+          name="experience"
+          required
+        >
+          <option value="">Select experience level</option>
+          <option value="1-3 years">1-3 years</option>
+          <option value="3-5 years">3-5 years</option>
+          <option value="5-10 years">5-10 years</option>
+          <option value="10+ years">10+ years</option>
+        </select>
+      </div>
+      
+      <div>
+        <label className="caption1 text-surface1">Resume/CV</label>
+        <input 
+          className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline" 
+          name="resume" 
+          type="file" 
+          accept=".pdf,.doc,.docx"
+        />
+        <p className="text-xs text-gray-500 mt-1">PDF, DOC, DOCX (Max 5MB)</p>
+      </div>
+    </div>
+  </div>
 
-              {message && (
-                <p className="mt-4 text-primary font-medium text-center">{message}</p>
-              )}
-              
-              <div className="flex gap-3 mt-6">
-                <button type="submit" className="button-main flex-1 text-center">
-                  Submit Application
-                </button>
-                <button 
-                  type="button" 
-                  onClick={closeModal}
-                  className="px-6 py-3 border border-outline rounded-lg text-surface1 hover:bg-gray-50 transition-colors"
-                >
-                  Cancel
-                </button>
-              </div>
-            </form>
+  {/* Full Width Cover Letter */}
+  <div className="mt-5">
+    <label className="caption1 text-surface1">Cover Letter</label>
+    <textarea 
+      className="w-full mt-2 caption1 px-4 py-3 rounded-lg border border-outline resize-none" 
+      name="cover-letter" 
+      rows="4"
+      placeholder="Tell us why you're interested in this position..."
+    ></textarea>
+  </div>
+
+  {message && (
+    <p className="mt-4 text-primary font-medium text-center">{message}</p>
+  )}
+  
+  <div className="flex gap-3 mt-6">
+    <button type="submit" className="button-main flex-1 text-center">
+      Submit Application
+    </button>
+    <button 
+      type="button" 
+      onClick={closeModal}
+      className="px-6 py-3 border border-outline rounded-lg text-surface1 hover:bg-gray-50 transition-colors"
+    >
+      Cancel
+    </button>
+  </div>
+</form>
           </div>
         </div>
       )}
