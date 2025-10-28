@@ -397,10 +397,8 @@ export default function Careers() {
           required
         >
           <option value="">Select experience level</option>
-          <option value="1-3 years">1-3 years</option>
-          <option value="3-5 years">3-5 years</option>
-          <option value="5-10 years">5-10 years</option>
-          <option value="10+ years">10+ years</option>
+          <option value="5 years">5+ years</option>
+        
         </select>
       </div>
       
